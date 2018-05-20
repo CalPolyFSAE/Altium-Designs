@@ -1,0 +1,593 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD18\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">5/19/2018</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">7:50:49 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc" class="file"><acronym title="C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc">C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">83</td></tr>
+</table>
+</td>
+</table><a name="IDTK0C0XI4DR3ECUXD1H5RCUKKSFUBLL5PGPJRLYMU53K1KI1TQ2WL"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDOWWXTWWAB5DUPZM0O4T5WPQJAJYXZAMPE0FCU5OCM3YGGPSXRQJD">Clearance Constraint (Gap=6mil) (InNetClass('All Nets')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID54LA0P44GF2GNN54KSHEJ32JKKTMTWRHNZ4PQYPGBYKF2EAQL5BH">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDS31C14MVKWZCOZ2FFQQ1HXF4LJ01GD55MVLXOHHJNQDZGDOVBNTK">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLL3FW4IXLOCEIECANXK31BIMFIZAK1F0O1OP1GHOWBFPKO32R2CK">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5CDPY2RHCODOPZMKTJADPCRCKF3J2KXSH1HZ4HDGWXH3QDZGNZAG">Width Constraint (Min=6mil) (Max=150mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDL1WAYPIJWAHZNY3CQ2LKDGOFCHT5FHGEUKDKXIMRBRCGL5LEM25B">Power Plane Connect Rule(Relief Connect )(Expansion=15mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRWQY54Q25XQOPWKRE15KHZNPHPVNKJF0ZDZSVWCKHZRIER5RMYHK">Hole Size Constraint (Min=10mil) (Max=247mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMNC2YKZNTONSHAIEVWFLHRYILIPUJLUAXYZIWGDW03BQFG2TUZI">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDHJ2PWFEXUUJOY2PWHU2D0SN2OF4WDCDENCWSGECLMII2XTWQ4IP">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</a></td>
+<td class="column2">51</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWM2N45JYHZ5HNNQNSAKPISD2WIJ1OA30QTY1GWMHPWUFL1JQUBL">Silk To Solder Mask (Clearance=10mil) (IsPad),(All)</a></td>
+<td class="column2">21</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYLH0DYXYRZB4BNED2PYL4C4HWM3R1NKZKE41FBBO0XQAAFNMWHF">Silk to Silk (Clearance=10mil) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDV0MFVLSE2QG0LQLU2VDX3ABTLKZDQKI4GOAJSMFEQCNIKRECZPOD">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">6</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWFQPIGX4IMETGQ0OOQ5N3X3MVOU1ALHXJNJIBGUOSLBW0HLUPFC">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">83</td>
+</tr>
+</table><br><a name="IDDHJ2PWFEXUUJOY2PWHU2D0SN2OF4WDCDENCWSGECLMII2XTWQ4IP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3731.265mil|Location2.X=3742.515mil|Location1.Y=1606.155mil|Location2.Y=1617.405mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3731.265mil|Location2.X=3742.515mil|Location1.Y=1606.155mil|Location2.Y=1617.405mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad C1-1(2717.402mil,637.449mil) on Bottom Layer And Pad C1-2(2656.378mil,637.449mil) on Bottom Layer [Bottom Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4066.708mil|Location2.X=4077.958mil|Location1.Y=1883.863mil|Location2.Y=1895.113mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4066.708mil|Location2.X=4077.958mil|Location1.Y=1883.863mil|Location2.Y=1895.113mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad C13-1(3048.002mil,920mil) on Top Layer And Pad C13-2(3048.002mil,858.976mil) on Top Layer [Top Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3145.359mil|Location2.X=3156.609mil|Location1.Y=1486.046mil|Location2.Y=1497.296mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3145.359mil|Location2.X=3156.609mil|Location1.Y=1486.046mil|Location2.Y=1497.296mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad C14-1(2070.472mil,517.34mil) on Top Layer And Pad C14-2(2131.496mil,517.34mil) on Top Layer [Top Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3126.654mil|Location2.X=3137.904mil|Location1.Y=2254.419mil|Location2.Y=2265.669mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3126.654mil|Location2.X=3137.904mil|Location1.Y=2254.419mil|Location2.Y=2265.669mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad C15-1(2051.767mil,1285.714mil) on Top Layer And Pad C15-2(2112.79mil,1285.714mil) on Top Layer [Top Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3283.863mil|Location2.X=3295.113mil|Location1.Y=2186.2mil|Location2.Y=2197.45mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3283.863mil|Location2.X=3295.113mil|Location1.Y=2186.2mil|Location2.Y=2197.45mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad C16-1(2270mil,1217.495mil) on Top Layer And Pad C16-2(2208.976mil,1217.495mil) on Top Layer [Top Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2868.706mil|Location2.X=2879.956mil|Location1.Y=2517.188mil|Location2.Y=2528.438mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2868.706mil|Location2.X=2879.956mil|Location1.Y=2517.188mil|Location2.Y=2528.438mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad C17-1(1850mil,1553.325mil) on Top Layer And Pad C17-2(1850mil,1492.301mil) on Top Layer [Top Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3268.706mil|Location2.X=3279.956mil|Location1.Y=2517.188mil|Location2.Y=2528.438mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3268.706mil|Location2.X=3279.956mil|Location1.Y=2517.188mil|Location2.Y=2528.438mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad C18-1(2250mil,1553.325mil) on Top Layer And Pad C18-2(2250mil,1492.301mil) on Top Layer [Top Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2288.706mil|Location2.X=2299.956mil|Location1.Y=1214.887mil|Location2.Y=1226.137mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2288.706mil|Location2.X=2299.956mil|Location1.Y=1214.887mil|Location2.Y=1226.137mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad C19-1(1270mil,251.024mil) on Top Layer And Pad C19-2(1270mil,190mil) on Top Layer [Top Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2688.706mil|Location2.X=2699.956mil|Location1.Y=1214.887mil|Location2.Y=1226.137mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2688.706mil|Location2.X=2699.956mil|Location1.Y=1214.887mil|Location2.Y=1226.137mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad C20-1(1670mil,251.024mil) on Top Layer And Pad C20-2(1670mil,190mil) on Top Layer [Top Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2714.375mil|Location2.X=2725.625mil|Location1.Y=1156.54mil|Location2.Y=1167.79mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2714.375mil|Location2.X=2725.625mil|Location1.Y=1156.54mil|Location2.Y=1167.79mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (4.331mil &lt; 10mil) Between Pad C20-2(1670mil,190mil) on Top Layer And Via (1670mil,140mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [4.331mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4204.235mil|Location2.X=4215.485mil|Location1.Y=2029.222mil|Location2.Y=2040.472mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4204.235mil|Location2.X=4215.485mil|Location1.Y=2029.222mil|Location2.Y=2040.472mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad C2-1(3190.372mil,1060.516mil) on Bottom Layer And Pad C2-2(3129.348mil,1060.516mil) on Bottom Layer [Bottom Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4065.438mil|Location2.X=4076.688mil|Location1.Y=2029.222mil|Location2.Y=2040.472mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4065.438mil|Location2.X=4076.688mil|Location1.Y=2029.222mil|Location2.Y=2040.472mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad C3-1(2990.551mil,1060.516mil) on Bottom Layer And Pad C3-2(3051.575mil,1060.516mil) on Bottom Layer [Bottom Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4871.757mil|Location2.X=4883.007mil|Location1.Y=1775.989mil|Location2.Y=1787.239mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4871.757mil|Location2.X=4883.007mil|Location1.Y=1775.989mil|Location2.Y=1787.239mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (5.748mil &lt; 10mil) Between Pad J1-10(3872.657mil,788.583mil) on Bottom Layer And Pad J1-11(3780.138mil,827.953mil) on Bottom Layer [Bottom Solder] Mask Sliver [5.748mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4871.757mil|Location2.X=4883.007mil|Location1.Y=2069.296mil|Location2.Y=2080.546mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4871.757mil|Location2.X=4883.007mil|Location1.Y=2069.296mil|Location2.Y=2080.546mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (5.748mil &lt; 10mil) Between Pad J1-6(3780.138mil,1072.047mil) on Bottom Layer And Pad J1-7(3872.657mil,1111.417mil) on Bottom Layer [Bottom Solder] Mask Sliver [5.748mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4874.631mil|Location2.X=4885.881mil|Location1.Y=1944.375mil|Location2.Y=1955.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4874.631mil|Location2.X=4885.881mil|Location1.Y=1944.375mil|Location2.Y=1955.625mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.685mil &lt; 10mil) Between Pad J1-8(3872.657mil,983.465mil) on Bottom Layer And Pad J1-9(3872.657mil,916.535mil) on Bottom Layer [Bottom Solder] Mask Sliver [9.685mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3764.867mil|Location2.X=3776.117mil|Location1.Y=2020.394mil|Location2.Y=2031.644mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3764.867mil|Location2.X=3776.117mil|Location1.Y=2020.394mil|Location2.Y=2031.644mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.984mil &lt; 10mil) Between Pad J3-10(2773.228mil,1026.413mil) on Top Layer And Via (2700mil,1026.019mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.984mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3764.867mil|Location2.X=3776.117mil|Location1.Y=1920.788mil|Location2.Y=1932.038mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3764.867mil|Location2.X=3776.117mil|Location1.Y=1920.788mil|Location2.Y=1932.038mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.984mil &lt; 10mil) Between Pad J3-6(2773.228mil,926.413mil) on Top Layer And Via (2700mil,926.413mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.984mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3764.867mil|Location2.X=3776.117mil|Location1.Y=1970.788mil|Location2.Y=1982.038mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3764.867mil|Location2.X=3776.117mil|Location1.Y=1970.788mil|Location2.Y=1982.038mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.984mil &lt; 10mil) Between Pad J3-8(2773.228mil,976.413mil) on Top Layer And Via (2700mil,976.413mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.984mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1644.62mil|Location2.Y=1655.87mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1644.62mil|Location2.Y=1655.87mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-1(2946.142mil,637.449mil) on Bottom Layer And Pad U1-2(2946.142mil,663.04mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1874.935mil|Location2.Y=1886.185mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1874.935mil|Location2.Y=1886.185mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-10(2946.142mil,867.764mil) on Bottom Layer And Pad U1-11(2946.142mil,893.355mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1849.344mil|Location2.Y=1860.594mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1849.344mil|Location2.Y=1860.594mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-10(2946.142mil,867.764mil) on Bottom Layer And Pad U1-9(2946.142mil,842.174mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1900.525mil|Location2.Y=1911.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1900.525mil|Location2.Y=1911.775mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-11(2946.142mil,893.355mil) on Bottom Layer And Pad U1-12(2946.142mil,918.946mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1926.116mil|Location2.Y=1937.366mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1926.116mil|Location2.Y=1937.366mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-12(2946.142mil,918.946mil) on Bottom Layer And Pad U1-13(2946.142mil,944.536mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1951.706mil|Location2.Y=1962.956mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1951.706mil|Location2.Y=1962.956mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-13(2946.142mil,944.536mil) on Bottom Layer And Pad U1-14(2946.142mil,970.127mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1951.706mil|Location2.Y=1962.956mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1951.706mil|Location2.Y=1962.956mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-15(3213.858mil,970.127mil) on Bottom Layer And Pad U1-16(3213.858mil,944.536mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1926.116mil|Location2.Y=1937.366mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1926.116mil|Location2.Y=1937.366mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-16(3213.858mil,944.536mil) on Bottom Layer And Pad U1-17(3213.858mil,918.946mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1900.525mil|Location2.Y=1911.775mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1900.525mil|Location2.Y=1911.775mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-17(3213.858mil,918.946mil) on Bottom Layer And Pad U1-18(3213.858mil,893.355mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1874.935mil|Location2.Y=1886.185mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1874.935mil|Location2.Y=1886.185mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-18(3213.858mil,893.355mil) on Bottom Layer And Pad U1-19(3213.858mil,867.764mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1849.344mil|Location2.Y=1860.594mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1849.344mil|Location2.Y=1860.594mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-19(3213.858mil,867.764mil) on Bottom Layer And Pad U1-20(3213.858mil,842.174mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1670.21mil|Location2.Y=1681.46mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1670.21mil|Location2.Y=1681.46mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-2(2946.142mil,663.04mil) on Bottom Layer And Pad U1-3(2946.142mil,688.63mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1823.754mil|Location2.Y=1835.004mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1823.754mil|Location2.Y=1835.004mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-20(3213.858mil,842.174mil) on Bottom Layer And Pad U1-21(3213.858mil,816.583mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1798.163mil|Location2.Y=1809.413mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1798.163mil|Location2.Y=1809.413mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-21(3213.858mil,816.583mil) on Bottom Layer And Pad U1-22(3213.858mil,790.993mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1772.572mil|Location2.Y=1783.822mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1772.572mil|Location2.Y=1783.822mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-22(3213.858mil,790.993mil) on Bottom Layer And Pad U1-23(3213.858mil,765.402mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1746.982mil|Location2.Y=1758.232mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1746.982mil|Location2.Y=1758.232mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-23(3213.858mil,765.402mil) on Bottom Layer And Pad U1-24(3213.858mil,739.812mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1721.391mil|Location2.Y=1732.641mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1721.391mil|Location2.Y=1732.641mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-24(3213.858mil,739.812mil) on Bottom Layer And Pad U1-25(3213.858mil,714.221mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1695.801mil|Location2.Y=1707.051mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1695.801mil|Location2.Y=1707.051mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-25(3213.858mil,714.221mil) on Bottom Layer And Pad U1-26(3213.858mil,688.63mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1670.21mil|Location2.Y=1681.46mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1670.21mil|Location2.Y=1681.46mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-26(3213.858mil,688.63mil) on Bottom Layer And Pad U1-27(3213.858mil,663.04mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1644.62mil|Location2.Y=1655.87mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4229.69mil|Location2.X=4240.94mil|Location1.Y=1644.62mil|Location2.Y=1655.87mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-27(3213.858mil,663.04mil) on Bottom Layer And Pad U1-28(3213.858mil,637.449mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1695.801mil|Location2.Y=1707.051mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1695.801mil|Location2.Y=1707.051mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-3(2946.142mil,688.63mil) on Bottom Layer And Pad U1-4(2946.142mil,714.221mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1721.391mil|Location2.Y=1732.641mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1721.391mil|Location2.Y=1732.641mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-4(2946.142mil,714.221mil) on Bottom Layer And Pad U1-5(2946.142mil,739.812mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1746.982mil|Location2.Y=1758.232mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1746.982mil|Location2.Y=1758.232mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-5(2946.142mil,739.812mil) on Bottom Layer And Pad U1-6(2946.142mil,765.402mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1772.572mil|Location2.Y=1783.822mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1772.572mil|Location2.Y=1783.822mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-6(2946.142mil,765.402mil) on Bottom Layer And Pad U1-7(2946.142mil,790.993mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1798.163mil|Location2.Y=1809.413mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1798.163mil|Location2.Y=1809.413mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-7(2946.142mil,790.993mil) on Bottom Layer And Pad U1-8(2946.142mil,816.583mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1823.754mil|Location2.Y=1835.004mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.974mil|Location2.X=3973.224mil|Location1.Y=1823.754mil|Location2.Y=1835.004mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (1.811mil &lt; 10mil) Between Pad U1-8(2946.142mil,816.583mil) on Bottom Layer And Pad U1-9(2946.142mil,842.174mil) on Bottom Layer [Bottom Solder] Mask Sliver [1.811mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3087.128mil|Location2.X=3098.378mil|Location1.Y=1709.039mil|Location2.Y=1720.289mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3087.128mil|Location2.X=3098.378mil|Location1.Y=1709.039mil|Location2.Y=1720.289mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (7.554mil &lt; 10mil) Between Pad U7-37(2031.102mil,677.067mil) on Top Layer And Via (2050mil,737.31mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [7.554mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3094.375mil|Location2.X=3105.625mil|Location1.Y=1708.563mil|Location2.Y=1719.813mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3094.375mil|Location2.X=3105.625mil|Location1.Y=1708.563mil|Location2.Y=1719.813mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (6.243mil &lt; 10mil) Between Pad U7-38(2050.787mil,677.067mil) on Top Layer And Via (2050mil,737.31mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [6.243mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3102.913mil|Location2.X=3114.163mil|Location1.Y=1709.215mil|Location2.Y=1720.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3102.913mil|Location2.X=3114.163mil|Location1.Y=1709.215mil|Location2.Y=1720.465mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (8.074mil &lt; 10mil) Between Pad U7-39(2070.472mil,677.067mil) on Top Layer And Via (2050mil,737.31mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [8.074mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2521.646mil|Location2.X=2532.896mil|Location1.Y=2293.751mil|Location2.Y=2305.001mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2521.646mil|Location2.X=2532.896mil|Location1.Y=2293.751mil|Location2.Y=2305.001mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (5.515mil &lt; 10mil) Between Pad U8-6(1426.23mil,1300.354mil) on Top Layer And Via (1500mil,1298.238mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [5.516mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3277.223mil|Location2.X=3288.473mil|Location1.Y=1771.737mil|Location2.Y=1782.987mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3277.223mil|Location2.X=3288.473mil|Location1.Y=1771.737mil|Location2.Y=1782.987mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (5.633mil &lt; 10mil) Between Via (2230mil,754.725mil) from Top Layer to Bottom Layer And Via (2235.697mil,800mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [5.633mil] / [Bottom Solder] Mask Sliver [5.633mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.985mil|Location2.X=3566.235mil|Location1.Y=1730.646mil|Location2.Y=1741.896mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3554.985mil|Location2.X=3566.235mil|Location1.Y=1730.646mil|Location2.Y=1741.896mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.491mil &lt; 10mil) Between Via (2490.315mil,722.114mil) from Top Layer to Bottom Layer And Via (2530.905mil,750.429mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [9.491mil] / [Bottom Solder] Mask Sliver [9.491mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3744.375mil|Location2.X=3755.625mil|Location1.Y=1995.591mil|Location2.Y=2006.841mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3744.375mil|Location2.X=3755.625mil|Location1.Y=1995.591mil|Location2.Y=2006.841mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (9.606mil &lt; 10mil) Between Via (2700mil,1026.019mil) from Top Layer to Bottom Layer And Via (2700mil,976.413mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [9.606mil] / [Bottom Solder] Mask Sliver [9.606mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDWM2N45JYHZ5HNNQNSAKPISD2WIJ1OA30QTY1GWMHPWUFL1JQUBL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=10mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4780.821mil|Location2.X=4792.071mil|Location1.Y=1899.097mil|Location2.Y=1910.347mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4780.821mil|Location2.X=4792.071mil|Location1.Y=1899.097mil|Location2.Y=1910.347mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (9.5mil &lt; 10mil) Between Arc (3723.169mil,898.667mil) on Bottom Overlay And Pad J1-1(3767.343mil,898.819mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [9.5mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4875.487mil|Location2.X=4886.737mil|Location1.Y=1769.375mil|Location2.Y=1780.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4875.487mil|Location2.X=4886.737mil|Location1.Y=1769.375mil|Location2.Y=1780.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.287mil &lt; 10mil) Between Pad J1-10(3872.657mil,788.583mil) on Bottom Layer And Track (3810mil,775mil)(3825mil,775mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [8.287mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4875.487mil|Location2.X=4886.737mil|Location1.Y=1751.462mil|Location2.Y=1762.712mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4875.487mil|Location2.X=4886.737mil|Location1.Y=1751.462mil|Location2.Y=1762.712mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.287mil &lt; 10mil) Between Pad J1-10(3872.657mil,788.583mil) on Bottom Layer And Track (3825mil,755mil)(3825mil,775mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [8.287mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4780.743mil|Location2.X=4791.993mil|Location1.Y=1780.989mil|Location2.Y=1792.239mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4780.743mil|Location2.X=4791.993mil|Location1.Y=1780.989mil|Location2.Y=1792.239mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.799mil &lt; 10mil) Between Pad J1-11(3780.138mil,827.953mil) on Bottom Layer And Track (3730mil,775mil)(3730mil,790mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [8.799mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4785.143mil|Location2.X=4796.393mil|Location1.Y=1776.166mil|Location2.Y=1787.416mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4785.143mil|Location2.X=4796.393mil|Location1.Y=1776.166mil|Location2.Y=1787.416mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (9.646mil &lt; 10mil) Between Pad J1-11(3780.138mil,827.953mil) on Bottom Layer And Track (3730mil,775mil)(3750mil,775mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [9.646mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4863.883mil|Location2.X=4875.133mil|Location1.Y=1776.166mil|Location2.Y=1787.416mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4863.883mil|Location2.X=4875.133mil|Location1.Y=1776.166mil|Location2.Y=1787.416mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (9.646mil &lt; 10mil) Between Pad J1-11(3780.138mil,827.953mil) on Bottom Layer And Track (3810mil,775mil)(3825mil,775mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [9.646mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4780.743mil|Location2.X=4791.993mil|Location1.Y=2107.761mil|Location2.Y=2119.011mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4780.743mil|Location2.X=4791.993mil|Location1.Y=2107.761mil|Location2.Y=2119.011mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.799mil &lt; 10mil) Between Pad J1-6(3780.138mil,1072.047mil) on Bottom Layer And Track (3730mil,1110mil)(3730mil,1125mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [8.799mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4785.143mil|Location2.X=4796.393mil|Location1.Y=2112.584mil|Location2.Y=2123.834mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4785.143mil|Location2.X=4796.393mil|Location1.Y=2112.584mil|Location2.Y=2123.834mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (9.646mil &lt; 10mil) Between Pad J1-6(3780.138mil,1072.047mil) on Bottom Layer And Track (3730mil,1125mil)(3750mil,1125mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [9.646mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4863.883mil|Location2.X=4875.133mil|Location1.Y=2112.584mil|Location2.Y=2123.834mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4863.883mil|Location2.X=4875.133mil|Location1.Y=2112.584mil|Location2.Y=2123.834mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (9.646mil &lt; 10mil) Between Pad J1-6(3780.138mil,1072.047mil) on Bottom Layer And Track (3810mil,1125mil)(3825mil,1125mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [9.646mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4875.487mil|Location2.X=4886.737mil|Location1.Y=2119.375mil|Location2.Y=2130.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4875.487mil|Location2.X=4886.737mil|Location1.Y=2119.375mil|Location2.Y=2130.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.287mil &lt; 10mil) Between Pad J1-7(3872.657mil,1111.417mil) on Bottom Layer And Track (3810mil,1125mil)(3825mil,1125mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [8.287mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4875.487mil|Location2.X=4886.737mil|Location1.Y=2137.288mil|Location2.Y=2148.538mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4875.487mil|Location2.X=4886.737mil|Location1.Y=2137.288mil|Location2.Y=2148.538mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.287mil &lt; 10mil) Between Pad J1-7(3872.657mil,1111.417mil) on Bottom Layer And Track (3825mil,1125mil)(3825mil,1145mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [8.287mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4554.404mil|Location2.X=4565.654mil|Location1.Y=1599.626mil|Location2.Y=1610.876mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4554.404mil|Location2.X=4565.654mil|Location1.Y=1599.626mil|Location2.Y=1610.876mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.13mil &lt; 10mil) Between Pad R3-1(3511.102mil,635.875mil) on Bottom Layer And Text "R3" (3600mil,537.205mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [6.13mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4614.385mil|Location2.X=4625.635mil|Location1.Y=1599.626mil|Location2.Y=1610.876mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4614.385mil|Location2.X=4625.635mil|Location1.Y=1599.626mil|Location2.Y=1610.876mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.13mil &lt; 10mil) Between Pad R3-2(3585.905mil,635.875mil) on Bottom Layer And Text "R3" (3600mil,537.205mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [6.13mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2405.121mil|Location2.X=2416.371mil|Location1.Y=1134.836mil|Location2.Y=1146.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2405.121mil|Location2.X=2416.371mil|Location1.Y=1134.836mil|Location2.Y=1146.086mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.134mil &lt; 10mil) Between Pad U10-1(1379.449mil,96.299mil) on Top Layer And Track (1338.11mil,148.465mil)(1601.89mil,148.465mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [8.134mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2495.672mil|Location2.X=2506.922mil|Location1.Y=1134.836mil|Location2.Y=1146.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2495.672mil|Location2.X=2506.922mil|Location1.Y=1134.836mil|Location2.Y=1146.086mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.134mil &lt; 10mil) Between Pad U10-2(1470mil,96.299mil) on Top Layer And Track (1338.11mil,148.465mil)(1601.89mil,148.465mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [8.134mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2586.223mil|Location2.X=2597.473mil|Location1.Y=1134.836mil|Location2.Y=1146.086mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2586.223mil|Location2.X=2597.473mil|Location1.Y=1134.836mil|Location2.Y=1146.086mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.134mil &lt; 10mil) Between Pad U10-3(1560.551mil,96.299mil) on Top Layer And Track (1338.11mil,148.465mil)(1601.89mil,148.465mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [8.134mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.405mil|Location2.X=2462.655mil|Location1.Y=1296.516mil|Location2.Y=1307.766mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2451.405mil|Location2.X=2462.655mil|Location1.Y=1296.516mil|Location2.Y=1307.766mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.141mil &lt; 10mil) Between Pad U10-4(1470mil,346.299mil) on Top Layer And Track (1338.11mil,294.134mil)(1601.89mil,294.134mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [8.141mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2985.121mil|Location2.X=2996.371mil|Location1.Y=2437.333mil|Location2.Y=2448.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2985.121mil|Location2.X=2996.371mil|Location1.Y=2437.333mil|Location2.Y=2448.583mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.134mil &lt; 10mil) Between Pad U9-1(1959.449mil,1398.797mil) on Top Layer And Track (1918.11mil,1450.963mil)(2181.89mil,1450.963mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [8.134mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3075.672mil|Location2.X=3086.922mil|Location1.Y=2437.333mil|Location2.Y=2448.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3075.672mil|Location2.X=3086.922mil|Location1.Y=2437.333mil|Location2.Y=2448.583mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.134mil &lt; 10mil) Between Pad U9-2(2050mil,1398.797mil) on Top Layer And Track (1918.11mil,1450.963mil)(2181.89mil,1450.963mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [8.134mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3166.223mil|Location2.X=3177.473mil|Location1.Y=2437.333mil|Location2.Y=2448.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3166.223mil|Location2.X=3177.473mil|Location1.Y=2437.333mil|Location2.Y=2448.583mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.134mil &lt; 10mil) Between Pad U9-3(2140.551mil,1398.797mil) on Top Layer And Track (1918.11mil,1450.963mil)(2181.89mil,1450.963mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [8.134mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3031.405mil|Location2.X=3042.655mil|Location1.Y=2599.014mil|Location2.Y=2610.264mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3031.405mil|Location2.X=3042.655mil|Location1.Y=2599.014mil|Location2.Y=2610.264mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.141mil &lt; 10mil) Between Pad U9-4(2050mil,1648.797mil) on Top Layer And Track (1918.11mil,1596.632mil)(2181.89mil,1596.632mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [8.141mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDYLH0DYXYRZB4BNED2PYL4C4HWM3R1NKZKE41FBBO0XQAAFNMWHF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3385.32mil|Location2.X=3396.57mil|Location1.Y=2616.51mil|Location2.Y=2627.76mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3385.32mil|Location2.X=3396.57mil|Location1.Y=2616.51mil|Location2.Y=2627.76mil|Absolute=True">Silk To Silk Clearance Constraint: (5.731mil &lt; 10mil) Between Arc (2340.945mil,1615.332mil) on Top Overlay And Text "DS3" (2320mil,1630mil) on Top Overlay Silk Text to Silk Clearance [5.731mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2074.369mil|Location2.X=2085.619mil|Location1.Y=1863.166mil|Location2.Y=1874.416mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2074.369mil|Location2.X=2085.619mil|Location1.Y=1863.166mil|Location2.Y=1874.416mil|Absolute=True">Silk To Silk Clearance Constraint: (7.607mil &lt; 10mil) Between Text "SE6" (1010mil,820mil) on Top Overlay And Text "SE7" (1010mil,877.594mil) on Top Overlay Silk Text to Silk Clearance [7.607mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3674.37mil|Location2.X=3685.62mil|Location1.Y=1893.325mil|Location2.Y=1904.575mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3674.37mil|Location2.X=3685.62mil|Location1.Y=1893.325mil|Location2.Y=1904.575mil|Absolute=True">Silk To Silk Clearance Constraint: (7.919mil &lt; 10mil) Between Text "TDO" (2600mil,907.909mil) on Top Overlay And Text "TMS" (2630mil,860mil) on Top Overlay Silk Text to Silk Clearance [7.919mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4104.372mil|Location2.X=4115.622mil|Location1.Y=1585.884mil|Location2.Y=1597.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4104.372mil|Location2.X=4115.622mil|Location1.Y=1585.884mil|Location2.Y=1597.134mil|Absolute=True">Silk To Silk Clearance Constraint: (3.298mil &lt; 10mil) Between Text "U1" (3050mil,584.86mil) on Bottom Overlay And Track (2997.323mil,597.095mil)(3162.677mil,597.095mil) on Bottom Overlay Silk Text to Silk Clearance [3.298mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDV0MFVLSE2QG0LQLU2VDX3ABTLKZDQKI4GOAJSMFEQCNIKRECZPOD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2926.5mil|Location2.X=2982.743mil|Location1.Y=1536.5mil|Location2.Y=1625.364mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2926.5mil|Location2.X=2982.743mil|Location1.Y=1536.5mil|Location2.Y=1625.364mil|Absolute=True">Net Antennae: Via (1900mil,560mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2986.5mil|Location2.X=3042.743mil|Location1.Y=1486.5mil|Location2.Y=1575.364mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2986.5mil|Location2.X=3042.743mil|Location1.Y=1486.5mil|Location2.Y=1575.364mil|Absolute=True">Net Antennae: Via (1960mil,510mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3209.65mil|Location2.X=3265.892mil|Location1.Y=1808.98mil|Location2.Y=1897.844mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3209.65mil|Location2.X=3265.892mil|Location1.Y=1808.98mil|Location2.Y=1897.844mil|Absolute=True">Net Antennae: Via (2183.15mil,832.48mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3276.5mil|Location2.X=3332.743mil|Location1.Y=1943.464mil|Location2.Y=2032.328mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3276.5mil|Location2.X=3332.743mil|Location1.Y=1943.464mil|Location2.Y=2032.328mil|Absolute=True">Net Antennae: Via (2250mil,966.964mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3503.591mil|Location2.X=3559.834mil|Location1.Y=1805.669mil|Location2.Y=1894.533mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3503.591mil|Location2.X=3559.834mil|Location1.Y=1805.669mil|Location2.Y=1894.533mil|Absolute=True">Net Antennae: Via (2477.091mil,829.169mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3557.405mil|Location2.X=3613.648mil|Location1.Y=1726.929mil|Location2.Y=1815.792mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3557.405mil|Location2.X=3613.648mil|Location1.Y=1726.929mil|Location2.Y=1815.792mil|Absolute=True">Net Antennae: Via (2530.905mil,750.429mil) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDWFQPIGX4IMETGQ0OOQ5N3X3MVOU1ALHXJNJIBGUOSLBW0HLUPFC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1599mil|Location2.X=1601mil|Location1.Y=1890.535mil|Location2.Y=1892.536mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Nick\Documents\GitHub\Altium-Designs\Kinetis MCU Senior Project\Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1599mil|Location2.X=1601mil|Location1.Y=1890.535mil|Location2.Y=1892.536mil|Absolute=True">Height Constraint: Component X1-TE Superseal 26 POS (550mil,891.535mil) on Top Layer Actual Height = 1108.268mil</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

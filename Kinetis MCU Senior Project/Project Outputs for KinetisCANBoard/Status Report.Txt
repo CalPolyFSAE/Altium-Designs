@@ -1,0 +1,22 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [KinetisCANBoard.PrjPCB]
+   Generated File[Board.GTO]
+   Generated File[Board.GTP]
+   Generated File[Board.GTS]
+   Generated File[Board.GTL]
+   Generated File[Board.GBL]
+   Generated File[Board.GBS]
+   Generated File[Board.GBP]
+   Generated File[Board.GBO]
+   Generated File[Board.GD1]
+   Generated File[Board.GG1]
+   Generated File[Board.RUL]
+   Generated File[Board.EXTREP]
+   Generated File[Board.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 8:28:07 PM On 5/19/2018
