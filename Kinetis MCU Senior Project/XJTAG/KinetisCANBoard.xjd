@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="3.6.1.4969" AppName="Developer" Preamble="KinetisCANBoard.xje">
+  <ProjectNotes>Project "KinetisCANBoard" created Saturday, May 19, 2018.</ProjectNotes>
+  <CategorisedDeviceHistory />
+  <CategorisationHistory />
+  <Warnings>
+    <HiddenWarnings />
+  </Warnings>
+  <DeviceFiles />
+  <PddFiles />
+  <Connections />
+  <RejectedPackFiles />
+  <AdditionalPackFiles />
+  <EmbedLayoutViewerInPackFile>true</EmbedLayoutViewerInPackFile>
+  <IncludeSchematicFilesInPackFile>true</IncludeSchematicFilesInPackFile>
+  <PackFile>
+    <Version />
+    <ForceBasicUser>false</ForceBasicUser>
+  </PackFile>
+  <AdditionalZipFiles />
+  <RejectedZipFiles />
+  <MessageBoxSettings />
+  <ConnectionTestDebugSettings>
+    <WaitForKeypress>false</WaitForKeypress>
+    <TestUsingAllDrivers>false</TestUsingAllDrivers>
+    <NetStartState>Input</NetStartState>
+    <NetSwitchState>High</NetSwitchState>
+    <IsDirectionForwards>true</IsDirectionForwards>
+    <IsRandom>false</IsRandom>
+    <RandomSeed>0</RandomSeed>
+  </ConnectionTestDebugSettings>
+  <Runner>
+    <CircuitDescription>New Project</CircuitDescription>
+    <Runtime>
+      <ConfirmStartMsg><![CDATA[XJRunner is about to start testing the current circuit. Continue?]]></ConfirmStartMsg>
+      <ConfirmPassedMsg><![CDATA[XJRunner has finished testing this circuit.
+Result: Passed.]]></ConfirmPassedMsg>
+      <ConfirmFailedMsg><![CDATA[XJRunner has finished testing this circuit.
+Result: Failed.]]></ConfirmFailedMsg>
+    </Runtime>
+    <Logging>
+      <EnableLogging>false</EnableLogging>
+      <EnableFormattedLogging>false</EnableFormattedLogging>
+      <Directory />
+      <FileNameFormatWithoutExtension>%{Project}</FileNameFormatWithoutExtension>
+      <FileExtension>txt</FileExtension>
+      <RelativePath>true</RelativePath>
+      <FileNameIncludeUser>false</FileNameIncludeUser>
+      <FileNameIncludeSerial>false</FileNameIncludeSerial>
+      <FileNameIncludeDateTime>false</FileNameIncludeDateTime>
+      <HeaderIncludeTime>false</HeaderIncludeTime>
+      <HeaderIncludeDate>false</HeaderIncludeDate>
+      <HeaderIncludeSerial>false</HeaderIncludeSerial>
+      <HeaderIncludeUser>false</HeaderIncludeUser>
+    </Logging>
+    <SerialNumbers />
+    <Tests>
+      <DefaultTestList />
+      <Functions>
+        <RunPostTestingAfterLogFileIsWritten>false</RunPostTestingAfterLogFileIsWritten>
+      </Functions>
+    </Tests>
+    <GeneralOptions>
+      <ShowSummary>Always</ShowSummary>
+      <ShowTestDuration>true</ShowTestDuration>
+      <DetailedOutput>true</DetailedOutput>
+    </GeneralOptions>
+    <FaultDictionary>
+      <FaultEntries />
+    </FaultDictionary>
+  </Runner>
+  <JTAGChainNames />
+  <AnalyserInfo>
+    <Instructions />
+    <ConstantPins />
+    <DeviceInfo />
+    <TckFrequency>0</TckFrequency>
+    <WatchList />
+    <GoldenScan />
+    <IgnoreLogicDisableValues>false</IgnoreLogicDisableValues>
+    <CheckForErrorsAndWarningsOnStartup>true</CheckForErrorsAndWarningsOnStartup>
+  </AnalyserInfo>
+  <Boards />
+</ProjectFile>

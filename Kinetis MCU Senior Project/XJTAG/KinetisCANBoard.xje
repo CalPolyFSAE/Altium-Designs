@@ -1,0 +1,23 @@
+CIRCUIT NAME := "New Project"
+
+  COMPAT_VERSION := 1; // Base
+
+  BOARD NAME := "KinetisCANBoard"
+    FILENAME := "Board-KinetisCANBoard.xje";
+  END; // End of board KinetisCANBoard
+
+  // JTAG interface description
+  JTAG CHAIN
+    CONNECTOR "JTAG Header"
+      MAPPING
+        XJTAG;
+      END;
+    END;
+  END;
+
+  // Additional files
+  FILES
+    "globals.xje";
+  END;
+END;
+

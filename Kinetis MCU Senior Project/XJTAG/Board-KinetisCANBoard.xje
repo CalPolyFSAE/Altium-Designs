@@ -1,0 +1,13 @@
+COMPAT_VERSION := 3; // AutomaticNetlistIdentification
+NETLIST := "C:\\Users\\Nick\\Documents\\GitHub\\Altium-Designs\\Kinetis MCU Senior Project\\XJTAG\\KinetisCANBoard.net";
+
+POWER LIST
+  GROUND := "AGND", "DGND";
+  POWER := "12V", "AVCC_5V", "DVCC_5V";
+END;
+
+JTAG LIST
+END;
+
+DEVICE LIST
+END;
