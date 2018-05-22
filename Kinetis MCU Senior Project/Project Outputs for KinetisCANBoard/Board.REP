@@ -2,50 +2,6 @@
 FileName = Board.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Overlay
-      File : Board.GBO
-
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Mechanical 7
-
-
-Used DCodes :
-    D10
-    D11
-    D13
-    D16
-    D17
-    D64
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : Board.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Mechanical 7
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D17
-    D20
-    D21
-    D29
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-*************************************************************
-
-*************************************************************
 Generating : Bottom Solder
       File : Board.GBS
 
@@ -73,6 +29,57 @@ Used DCodes :
     D61
     D62
     D63
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Board.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Mechanical 7
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D46
+    D47
+    D48
+    D49
+    D50
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Board.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 7
+
+
+Used DCodes :
+    D10
+    D11
+    D13
+    D16
+    D17
+    D64
 *************************************************************
 
 *************************************************************
@@ -158,6 +165,32 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Bottom Paste
+      File : Board.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Mechanical 7
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D20
+    D21
+    D29
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+*************************************************************
+
+*************************************************************
 Generating : Bottom Layer
       File : Board.GBL
 
@@ -185,39 +218,6 @@ Used DCodes :
     D55
     D56
     D57
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : Board.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Mechanical 7
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D46
-    D47
-    D48
-    D49
-    D50
 *************************************************************
 
 *************************************************************
