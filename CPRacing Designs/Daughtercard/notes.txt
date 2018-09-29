@@ -1,0 +1,4 @@
+-remove accelerometer and gyroscope
+-remove 5v -> 3v step down
+-remove wheel speed input conn
+-remove sbrio conns
