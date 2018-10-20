@@ -1,2 +1,2 @@
-Record=TopLevelDocument|FileName=BSPD.SchDoc
-Record=SheetSymbol|SourceDocument=HighSideDrivers.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=File Name|SymbolType=Normal|RawFileName=File Name|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=HighSideDrivers.SchDoc
+Record=SheetSymbol|SourceDocument=HighSideDrivers.SchDoc|Designator=BSPD|SchDesignator=BSPD|FileName=BSPD.SchDoc|SymbolType=Normal|RawFileName=BSPD.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
