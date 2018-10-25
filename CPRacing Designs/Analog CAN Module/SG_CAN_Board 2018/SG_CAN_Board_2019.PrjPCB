@@ -55,7 +55,7 @@ GenerateClassCluster=0
 DocumentUniqueId=JMSROMQR
 
 [Document2]
-DocumentPath=CAN_Tranceiver.SchDoc
+DocumentPath=..\..\Universal_Designs\CAN_Tranceiver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
