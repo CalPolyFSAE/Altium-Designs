@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TGOMBHEA
 
 [Document5]
-DocumentPath=Stepdown.SchDoc
+DocumentPath=LDO_5V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -120,7 +120,24 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=NQKUBDED
+DocumentUniqueId=SFMXYGSQ
+
+[Document6]
+DocumentPath=ControlBoard_Top.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NEEIKKAE
 
 [Configuration1]
 Name=Sources
