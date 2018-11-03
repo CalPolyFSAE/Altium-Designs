@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=Reverse_Voltage_Protect.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NGAUIJXD
+
+[Document2]
 DocumentPath=CAN_Tranceiver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QJBIJXDW
 
-[Document2]
+[Document3]
 DocumentPath=Drivers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PJSGGOGJ
 
-[Document3]
+[Document4]
 DocumentPath=Shutdown.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TGOMBHEA
 
-[Document4]
+[Document5]
 DocumentPath=MCU_MKE185F512VLH16.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JMSROMQR
 
-[Document5]
+[Document6]
 DocumentPath=BSPD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ADPAVTBN
 
-[Document6]
+[Document7]
 DocumentPath=LDO_5V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SFMXYGSQ
 
-[Document7]
+[Document8]
 DocumentPath=ControlBoard_Top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NEEIKKAE
 
-[Document8]
+[Document9]
 DocumentPath=Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HBIPKSTD
 
-[Document9]
+[Document10]
 DocumentPath=..\..\..\Altium-Library\Footprints\XG8V-0331.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -189,23 +206,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BKIOMGJK
-
-[Document10]
-DocumentPath=ControlBoard.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FBTAPXWI
 
 [Configuration1]
 Name=Sources
