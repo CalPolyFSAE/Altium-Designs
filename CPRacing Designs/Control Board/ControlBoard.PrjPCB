@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=USB.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=10
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BNLASOWS
+
+[Document2]
 DocumentPath=RVP_OVP_HC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GACANASN
 
-[Document2]
+[Document3]
 DocumentPath=CAN_Tranceiver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QJBIJXDW
 
-[Document3]
+[Document4]
 DocumentPath=Drivers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PJSGGOGJ
 
-[Document4]
+[Document5]
 DocumentPath=Shutdown.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TGOMBHEA
 
-[Document5]
+[Document6]
 DocumentPath=MCU_MKE185F512VLH16.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JMSROMQR
 
-[Document6]
+[Document7]
 DocumentPath=BSPD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ADPAVTBN
 
-[Document7]
+[Document8]
 DocumentPath=LDO_5V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SFMXYGSQ
 
-[Document8]
+[Document9]
 DocumentPath=ControlBoard_Top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NEEIKKAE
 
-[Document9]
+[Document10]
 DocumentPath=Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HBIPKSTD
 
-[Document10]
+[Document11]
 DocumentPath=..\..\..\Altium-Library\Footprints\XG8V-0331.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BKIOMGJK
 
-[Document11]
+[Document12]
 DocumentPath=MC_power_en.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EXGTGWRL
 
-[Document12]
+[Document13]
 DocumentPath=..\..\..\Altium-Library\Symbols\SPST_Switch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VADKDBAR
 
-[Document13]
+[Document14]
 DocumentPath=..\..\..\Altium-Library\Footprints\M2011SS1W01_SPST_Switch.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EOMUHRDA
 
-[Document14]
+[Document15]
 DocumentPath=ControlBoard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1534,6 +1551,288 @@ ModelUpdate18=1
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Altium-Lib.DbLib/Buttons&Switches
+ComponentDesignItemID0=1
+ComponentSymbolReference0=RV6LAYSA502A
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Altium-Lib.DbLib/Buttons&Switches
+ComponentDesignItemID1=4
+ComponentSymbolReference1=SPST
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Altium-Lib.DbLib/Capacitor
+ComponentDesignItemID2=1063
+ComponentSymbolReference2=Capacitor
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=Altium-Lib.DbLib/Capacitor
+ComponentDesignItemID3=1065
+ComponentSymbolReference3=Capacitor
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Altium-Lib.DbLib/Capacitor
+ComponentDesignItemID4=223
+ComponentSymbolReference4=Capacitor
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Altium-Lib.DbLib/Capacitor
+ComponentDesignItemID5=529
+ComponentSymbolReference5=Capacitor
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Altium-Lib.DbLib/Capacitor
+ComponentDesignItemID6=583
+ComponentSymbolReference6=Capacitor
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Altium-Lib.DbLib/Capacitor
+ComponentDesignItemID7=929
+ComponentSymbolReference7=Capacitor
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Altium-Lib.DbLib/Capacitor
+ComponentDesignItemID8=943
+ComponentSymbolReference8=Capacitor
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=Altium-Lib.DbLib/Connector
+ComponentDesignItemID9=3
+ComponentSymbolReference9=CONN Superseal 60POS
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=Altium-Lib.DbLib/Connector
+ComponentDesignItemID10=4
+ComponentSymbolReference10=CN-2P-M-R10
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=Altium-Lib.DbLib/Connector
+ComponentDesignItemID11=5
+ComponentSymbolReference11=USB-5-6SHLD
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=Altium-Lib.DbLib/Connector
+ComponentDesignItemID12=8
+ComponentSymbolReference12=XG8V-0331
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=Altium-Lib.DbLib/Diode
+ComponentDesignItemID13=10
+ComponentSymbolReference13=Zener
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=Altium-Lib.DbLib/Diode
+ComponentDesignItemID14=11
+ComponentSymbolReference14=DIODE
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=Altium-Lib.DbLib/Diode
+ComponentDesignItemID15=7
+ComponentSymbolReference15=NUP1105LT1G
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=Altium-Lib.DbLib/Diode
+ComponentDesignItemID16=9
+ComponentSymbolReference16=ACDSW4148-G Swtiching Diode
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=Altium-Lib.DbLib/FETs
+ComponentDesignItemID17=2
+ComponentSymbolReference17=STN1HNK60
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=Altium-Lib.DbLib/FETs
+ComponentDesignItemID18=3
+ComponentSymbolReference18=PSMN2R2-25YLC 25V Logic Level MOSFET
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=Altium-Lib.DbLib/Fuse
+ComponentDesignItemID19=4
+ComponentSymbolReference19=PTC Fuse
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=Altium-Lib.DbLib/IC-Interface
+ComponentDesignItemID20=3
+ComponentSymbolReference20=FT232RL
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=Altium-Lib.DbLib/IC-Interface
+ComponentDesignItemID21=5
+ComponentSymbolReference21=MCP2561 CAN Transceiver
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=Altium-Lib.DbLib/IC-Microcontroller
+ComponentDesignItemID22=1
+ComponentSymbolReference22=MKE18F512 VLH16 MCU
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=Altium-Lib.DbLib/IC-Misc
+ComponentDesignItemID23=12
+ComponentSymbolReference23=SN74LVC2G132DCUR
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=Altium-Lib.DbLib/IC-Misc
+ComponentDesignItemID24=14
+ComponentSymbolReference24=SN74LVC1G32 Single 2-Input Positive-OR Gate
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=Altium-Lib.DbLib/IC-Misc
+ComponentDesignItemID25=15
+ComponentSymbolReference25=74HC21D AND Gate
+ComponentUpdate25=1
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=Altium-Lib.DbLib/IC-Misc
+ComponentDesignItemID26=6
+ComponentSymbolReference26=BTS716G
+ComponentUpdate26=1
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=Altium-Lib.DbLib/IC-Misc
+ComponentDesignItemID27=7
+ComponentSymbolReference27=LT1018 Dual Comparator
+ComponentUpdate27=1
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=Altium-Lib.DbLib/LED
+ComponentDesignItemID28=1
+ComponentSymbolReference28=LED
+ComponentUpdate28=1
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=Altium-Lib.DbLib/LED
+ComponentDesignItemID29=2
+ComponentSymbolReference29=LED
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
+ComponentLibIdentifierKind30=Library Name And Type
+ComponentLibraryIdentifier30=Altium-Lib.DbLib/PMIC-Linear
+ComponentDesignItemID30=6
+ComponentSymbolReference30=BA50DD0WHFP-TR Linear Voltage Regulators 5
+ComponentUpdate30=1
+ComponentIsDeviceSheet30=0
+ComponentLibIdentifierKind31=Library Name And Type
+ComponentLibraryIdentifier31=Altium-Lib.DbLib/Relay
+ComponentDesignItemID31=2
+ComponentSymbolReference31=JW2SN-DC12V-Relay
+ComponentUpdate31=1
+ComponentIsDeviceSheet31=0
+ComponentLibIdentifierKind32=Library Name And Type
+ComponentLibraryIdentifier32=Altium-Lib.DbLib/Relay
+ComponentDesignItemID32=3
+ComponentSymbolReference32=ACTP112
+ComponentUpdate32=1
+ComponentIsDeviceSheet32=0
+ComponentLibIdentifierKind33=Library Name And Type
+ComponentLibraryIdentifier33=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID33=1340
+ComponentSymbolReference33=Resistor
+ComponentUpdate33=1
+ComponentIsDeviceSheet33=0
+ComponentLibIdentifierKind34=Library Name And Type
+ComponentLibraryIdentifier34=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID34=1625
+ComponentSymbolReference34=Resistor
+ComponentUpdate34=1
+ComponentIsDeviceSheet34=0
+ComponentLibIdentifierKind35=Library Name And Type
+ComponentLibraryIdentifier35=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID35=1808
+ComponentSymbolReference35=Resistor
+ComponentUpdate35=1
+ComponentIsDeviceSheet35=0
+ComponentLibIdentifierKind36=Library Name And Type
+ComponentLibraryIdentifier36=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID36=1831
+ComponentSymbolReference36=Resistor
+ComponentUpdate36=1
+ComponentIsDeviceSheet36=0
+ComponentLibIdentifierKind37=Library Name And Type
+ComponentLibraryIdentifier37=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID37=1841
+ComponentSymbolReference37=Resistor
+ComponentUpdate37=1
+ComponentIsDeviceSheet37=0
+ComponentLibIdentifierKind38=Library Name And Type
+ComponentLibraryIdentifier38=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID38=2028
+ComponentSymbolReference38=Resistor
+ComponentUpdate38=1
+ComponentIsDeviceSheet38=0
+ComponentLibIdentifierKind39=Library Name And Type
+ComponentLibraryIdentifier39=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID39=2293
+ComponentSymbolReference39=Resistor
+ComponentUpdate39=1
+ComponentIsDeviceSheet39=0
+ComponentLibIdentifierKind40=Library Name And Type
+ComponentLibraryIdentifier40=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID40=2541
+ComponentSymbolReference40=Resistor
+ComponentUpdate40=1
+ComponentIsDeviceSheet40=0
+ComponentLibIdentifierKind41=Library Name And Type
+ComponentLibraryIdentifier41=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID41=313
+ComponentSymbolReference41=Resistor
+ComponentUpdate41=1
+ComponentIsDeviceSheet41=0
+ComponentLibIdentifierKind42=Library Name And Type
+ComponentLibraryIdentifier42=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID42=497
+ComponentSymbolReference42=Resistor
+ComponentUpdate42=1
+ComponentIsDeviceSheet42=0
+ComponentLibIdentifierKind43=Library Name And Type
+ComponentLibraryIdentifier43=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID43=545
+ComponentSymbolReference43=Resistor
+ComponentUpdate43=1
+ComponentIsDeviceSheet43=0
+ComponentLibIdentifierKind44=Library Name And Type
+ComponentLibraryIdentifier44=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID44=706
+ComponentSymbolReference44=Resistor
+ComponentUpdate44=1
+ComponentIsDeviceSheet44=0
+ComponentLibIdentifierKind45=Library Name And Type
+ComponentLibraryIdentifier45=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID45=721
+ComponentSymbolReference45=Resistor
+ComponentUpdate45=1
+ComponentIsDeviceSheet45=0
+ComponentLibIdentifierKind46=Library Name And Type
+ComponentLibraryIdentifier46=Altium-Lib.DbLib/Resistor
+ComponentDesignItemID46=761
+ComponentSymbolReference46=Resistor
+ComponentUpdate46=1
+ComponentIsDeviceSheet46=0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
