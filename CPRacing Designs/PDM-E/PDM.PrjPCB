@@ -38,23 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=PDM.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PYWPJIQR
-
-[Document2]
 DocumentPath=..\Universal_Designs\RVP_OVP_HC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NLEIKEUO
 
-[Document3]
+[Document2]
 DocumentPath=Superseal.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UKFWRVQK
 
-[Document4]
+[Document3]
 DocumentPath=Relay fused CKT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RDLPGQNV
 
-[Document5]
+[Document4]
 DocumentPath=Non-relay fused CKT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BKWQLOHI
 
-[Document6]
+[Document5]
 DocumentPath=LC_OUTPUTS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OFKHQSQV
 
-[Document7]
+[Document6]
 DocumentPath=HC_OUTPUTS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RCDRLEFJ
 
-[Document8]
+[Document7]
 DocumentPath=OUTPUTS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QWVGNMJB
 
-[Document9]
+[Document8]
 DocumentPath=PDM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EJQAOFOX
 
-[Document10]
+[Document9]
 DocumentPath=..\..\..\Altium-Library\Symbols\MCP970x.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IRWMQACR
 
-[Document11]
+[Document10]
 DocumentPath=PDM.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -223,6 +206,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document11]
+DocumentPath=PDM.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QVDSPVXT
 
 [Configuration1]
 Name=Sources
@@ -1159,9 +1159,129 @@ SortOrder=3
 SortLocation=0
 MatchParameter1=Value
 MatchStrictly1=1
-PhysicalNamingFormat=$Component_$RoomName
+PhysicalNamingFormat=$ComponentPrefix$GlobalIndex
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
+UniqueIDPath0=\IDYAXPRX\UAIHGOAN
+DocumentName0=HC_OUTPUTS.SchDoc
+IsEnabled0=1
+SelectionScope0=All
+Order0=1
+IndexEnabled0=1
+IndexStartValue0=1
+Suffix0=
+UniqueIDPath1=\IDYAXPRX\CGNDILRG
+DocumentName1=LC_OUTPUTS.SchDoc
+IsEnabled1=1
+SelectionScope1=All
+Order1=2
+IndexEnabled1=1
+IndexStartValue1=1
+Suffix1=
+UniqueIDPath2=\IDYAXPRX\CGNDILRG\QJRUPINF
+DocumentName2=Non-relay fused CKT.SchDoc
+IsEnabled2=1
+SelectionScope2=All
+Order2=3
+IndexEnabled2=1
+IndexStartValue2=1
+Suffix2=
+UniqueIDPath3=\IDYAXPRX\CGNDILRG\XOFIAPDB
+DocumentName3=Non-relay fused CKT.SchDoc
+IsEnabled3=1
+SelectionScope3=All
+Order3=4
+IndexEnabled3=1
+IndexStartValue3=1
+Suffix3=
+UniqueIDPath4=\IDYAXPRX\CGNDILRG\BXEWKJBN
+DocumentName4=Non-relay fused CKT.SchDoc
+IsEnabled4=1
+SelectionScope4=All
+Order4=5
+IndexEnabled4=1
+IndexStartValue4=1
+Suffix4=
+UniqueIDPath5=\IDYAXPRX\CGNDILRG\KDBBDYDC
+DocumentName5=Non-relay fused CKT.SchDoc
+IsEnabled5=1
+SelectionScope5=All
+Order5=6
+IndexEnabled5=1
+IndexStartValue5=1
+Suffix5=
+UniqueIDPath6=\IDYAXPRX\CGNDILRG\XGHIUVBA
+DocumentName6=Non-relay fused CKT.SchDoc
+IsEnabled6=1
+SelectionScope6=All
+Order6=7
+IndexEnabled6=1
+IndexStartValue6=1
+Suffix6=
+UniqueIDPath7=\IDYAXPRX\CGNDILRG\XHJGDLUL
+DocumentName7=Non-relay fused CKT.SchDoc
+IsEnabled7=1
+SelectionScope7=All
+Order7=8
+IndexEnabled7=1
+IndexStartValue7=1
+Suffix7=
+UniqueIDPath8=\IDYAXPRX
+DocumentName8=OUTPUTS.SchDoc
+IsEnabled8=1
+SelectionScope8=All
+Order8=9
+IndexEnabled8=1
+IndexStartValue8=1
+Suffix8=
+UniqueIDPath9=
+DocumentName9=PDM.SchDoc
+IsEnabled9=1
+SelectionScope9=All
+Order9=10
+IndexEnabled9=1
+IndexStartValue9=1
+Suffix9=
+UniqueIDPath10=\IDYAXPRX\UAIHGOAN\FDOYVKSL
+DocumentName10=Relay fused CKT.SchDoc
+IsEnabled10=1
+SelectionScope10=All
+Order10=11
+IndexEnabled10=1
+IndexStartValue10=1
+Suffix10=
+UniqueIDPath11=\IDYAXPRX\UAIHGOAN\TGKDBMLP
+DocumentName11=Relay fused CKT.SchDoc
+IsEnabled11=1
+SelectionScope11=All
+Order11=12
+IndexEnabled11=1
+IndexStartValue11=1
+Suffix11=
+UniqueIDPath12=\IDYAXPRX\CGNDILRG\XWEKUFNR
+DocumentName12=Relay fused CKT.SchDoc
+IsEnabled12=1
+SelectionScope12=All
+Order12=13
+IndexEnabled12=1
+IndexStartValue12=1
+Suffix12=
+UniqueIDPath13=\KTLEPRII
+DocumentName13=RVP_OVP_HC.SchDoc
+IsEnabled13=1
+SelectionScope13=All
+Order13=14
+IndexEnabled13=1
+IndexStartValue13=1
+Suffix13=
+UniqueIDPath14=\YSSXVYWH
+DocumentName14=Superseal.SchDoc
+IsEnabled14=1
+SelectionScope14=All
+Order14=15
+IndexEnabled14=1
+IndexStartValue14=1
+Suffix14=
 
 [PrjClassGen]
 CompClassManualEnabled=0
@@ -1180,43 +1300,43 @@ ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Altium-Lib.DbLib/BJT
 ComponentDesignItemID0=3
 ComponentSymbolReference0=PNP Transistor
-ComponentUpdate0=1
+ComponentUpdate0=0
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=Altium-Lib.DbLib/Connector
 ComponentDesignItemID1=3
 ComponentSymbolReference1=CONN Superseal 60POS
-ComponentUpdate1=1
+ComponentUpdate1=0
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=Altium-Lib.DbLib/Diode
 ComponentDesignItemID2=10
 ComponentSymbolReference2=Zener
-ComponentUpdate2=1
+ComponentUpdate2=0
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Altium-Lib.DbLib/Diode
 ComponentDesignItemID3=11
 ComponentSymbolReference3=DIODE
-ComponentUpdate3=1
+ComponentUpdate3=0
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=Altium-Lib.DbLib/Diode
 ComponentDesignItemID4=2
 ComponentSymbolReference4=DIODE
-ComponentUpdate4=1
+ComponentUpdate4=0
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=Altium-Lib.DbLib/FETs
 ComponentDesignItemID5=1
 ComponentSymbolReference5=IPB200N253
-ComponentUpdate5=1
+ComponentUpdate5=0
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=Altium-Lib.DbLib/FETs
 ComponentDesignItemID6=3
 ComponentSymbolReference6=PSMN2R2-25YLC 25V Logic Level MOSFET
-ComponentUpdate6=1
+ComponentUpdate6=0
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=Altium-Lib.DbLib/Fuse
@@ -1228,31 +1348,31 @@ ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=Altium-Lib.DbLib/LED
 ComponentDesignItemID8=1
 ComponentSymbolReference8=LED
-ComponentUpdate8=1
+ComponentUpdate8=0
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=Altium-Lib.DbLib/LED
 ComponentDesignItemID9=2
 ComponentSymbolReference9=LED
-ComponentUpdate9=1
+ComponentUpdate9=0
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=Altium-Lib.DbLib/Relay
 ComponentDesignItemID10=3
 ComponentSymbolReference10=ACTP112
-ComponentUpdate10=1
+ComponentUpdate10=0
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=Altium-Lib.DbLib/Resistor
 ComponentDesignItemID11=497
 ComponentSymbolReference11=Resistor
-ComponentUpdate11=1
+ComponentUpdate11=0
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
 ComponentLibraryIdentifier12=Altium-Lib.DbLib/Resistor
 ComponentDesignItemID12=545
 ComponentSymbolReference12=Resistor
-ComponentUpdate12=1
+ComponentUpdate12=0
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
 ComponentLibraryIdentifier13=Altium-Lib.DbLib
@@ -1389,34 +1509,20 @@ ModelType4=PCBLIB
 ModelName4=LFPAK-SO8
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=Model Name
+ModelName5=RES 0805/2012
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=MODULE5B
+ModelName6=SOD123F
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=RES 0805/2012
+ModelName7=SOT23-3
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=SOD123F
+ModelName8=SUPERSEAL 60POS 90Deg
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=SODFL350X115-2M
+ModelName9=TO-277
 ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=SOT23-3
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=SUPERSEAL 60POS 90Deg
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=TO-277
-ModelUpdate12=1
-ModelTypeGroup1=SIM
-ModelTypeUpdate1=1
-ModelType13=SIM
-ModelName13=SPDTRELAY
-ModelUpdate13=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
