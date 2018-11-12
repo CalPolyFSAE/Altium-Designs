@@ -191,6 +191,23 @@ GenerateClassCluster=0
 DocumentUniqueId=IRWMQACR
 
 [Document10]
+DocumentPath=PDM.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QVDSPVXT
+
+[Document11]
 DocumentPath=PDM.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,22 +224,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
-DocumentPath=PDM.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PDM\Design Rule Check - PDM.html
 DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QVDSPVXT
 
 [Configuration1]
 Name=Sources
