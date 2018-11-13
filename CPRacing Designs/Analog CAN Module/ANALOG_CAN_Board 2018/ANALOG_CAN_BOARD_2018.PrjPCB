@@ -38,13 +38,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=RVP_OVP_LC.SchDoc
+DocumentPath=ANALOG_CAN2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=8
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -52,7 +52,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=NGAUIJXD
+DocumentUniqueId=POLPNOIB
 
 [Document2]
 DocumentPath=CAN_Tranceiver.SchDoc
@@ -157,6 +157,23 @@ GenerateClassCluster=0
 DocumentUniqueId=VRXONRWL
 
 [Document8]
+DocumentPath=..\..\Universal_Designs\RVP_OVP_LC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=12
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NGAUIJXD
+
+[Document9]
 DocumentPath=5V Reference.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YHEMBHMV
 
-[Document9]
+[Document10]
 DocumentPath=..\..\Universal_Designs\Op-Amp Stage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=THGRQMXD
 
-[Document10]
+[Document11]
 DocumentPath=..\..\..\..\..\..\AppData\Local\Temp\History\ANALOG_CAN.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KJRALWHU
 
-[Document11]
+[Document12]
 DocumentPath=Sallen-Key Filter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IMYMXWEN
 
-[Document12]
+[Document13]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -240,6 +257,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TFEXBBJT
+
+[GeneratedDocument1]
+DocumentPath=..\..\..\..\..\..\AppData\Local\Temp\History\ANALOG_CAN 11-12-2018 5-06-13 PM.WAS
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
