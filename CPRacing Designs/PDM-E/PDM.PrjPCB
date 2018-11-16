@@ -224,6 +224,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PDM\Design Rule Check - PDM.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1268,7 +1272,7 @@ IndexStartValue12=1
 Suffix12=
 UniqueIDPath13=\KTLEPRII
 DocumentName13=RVP_OVP_HC.SchDoc
-IsEnabled13=1
+IsEnabled13=0
 SelectionScope13=All
 Order13=14
 IndexEnabled13=1
