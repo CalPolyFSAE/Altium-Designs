@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=..\Universal_Designs\RVP_OVP_HC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NLEIKEUO
+
+[Document2]
 DocumentPath=..\Universal_Designs\CAN_Tranceiver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QJBIJXDW
 
-[Document2]
+[Document3]
 DocumentPath=..\Universal_Designs\MCU_MKE185F512VLH16.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JMSROMQR
 
-[Document3]
+[Document4]
 DocumentPath=Gate_driver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GOQQLFNI
 
-[Document4]
+[Document5]
 DocumentPath=PDC_Low_Current_Outputs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SVJAAEAF
 
-[Document5]
+[Document6]
 DocumentPath=FTDI_interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,59 +139,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GTTHWAJS
 
-[Document6]
-DocumentPath=Power_supply_Bat_sense.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=11
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TWMVWVBJ
-
 [Document7]
-DocumentPath=Power_supply_LED.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=12
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IOUJTJPF
-
-[Document8]
-DocumentPath=Power_supply_MAX6350CSA.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=13
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KXYPWQWV
-
-[Document9]
-DocumentPath=Power_supply_BA50DD0WHFPCT.SchDoc
+DocumentPath=Power_supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -190,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TGGPMPNW
 
-[Document10]
+[Document8]
 DocumentPath=PDC_high_Current_Outputs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DXDQARAL
 
-[Document11]
+[Document9]
 DocumentPath=PDC_Gate_Driver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VWNOQUBF
 
-[Document12]
+[Document10]
 DocumentPath=E_stop.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BSLINGBQ
 
-[Document13]
+[Document11]
 DocumentPath=Analog_HC_Overcurrent_Redundancy.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QFODRKGQ
 
-[Document14]
+[Document12]
 DocumentPath=Analog_HC_Overcurrent_MMPQ3904.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TFIUEJYH
 
-[Document15]
+[Document13]
 DocumentPath=Rectifier_shutdown_Gate.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FRDAWQGO
 
-[Document16]
+[Document14]
 DocumentPath=Rectifier_shutdown_LT1910.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MFWNJVXW
 
-[Document17]
+[Document15]
 DocumentPath=LOW_CURRENT_OUTPUTS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BSBVAKUQ
 
-[Document18]
+[Document16]
 DocumentPath=Input_Current_Limiting.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HKRVJCRL
 
-[Document19]
+[Document17]
 DocumentPath=Reset_Pin.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BJPNTKKT
 
-[Document20]
+[Document18]
 DocumentPath=HIGH_CURRENT_OUTPUTS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -377,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XTULOAPY
 
-[Document21]
+[Document19]
 DocumentPath=ANALOG_HC_OVERCURRENT_REDUNDANCY_CCT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -394,7 +360,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EPLVKLVH
 
-[Document22]
+[Document20]
 DocumentPath=RECTIFIER_SHUTDOWN_CCT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -411,6 +377,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EADWGSXP
 
+[Document21]
+DocumentPath=E_STOP_&_GATE_DRIVE.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UYNCWWLK
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -424,7 +407,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=HPBB986E (HP Officejet Pro 8600)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -530,7 +513,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=HPBB986E (HP Officejet Pro 8600)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -602,7 +585,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=HPBB986E (HP Officejet Pro 8600)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -624,7 +607,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=HPBB986E (HP Officejet Pro 8600)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -696,7 +679,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=HPBB986E (HP Officejet Pro 8600)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -733,7 +716,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=HPBB986E (HP Officejet Pro 8600)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -913,7 +896,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=HPBB986E (HP Officejet Pro 8600)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Server's components states check
@@ -952,7 +935,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=HPBB986E (HP Officejet Pro 8600)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1003,7 +986,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=HPBB986E (HP Officejet Pro 8600)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
