@@ -39,7 +39,7 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=..\Universal_Designs\CAN_Tranceiver.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -56,7 +56,7 @@ DocumentUniqueId=QJBIJXDW
 
 [Document2]
 DocumentPath=..\Universal_Designs\MCU_MKE185F512VLH16.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -90,13 +90,13 @@ DocumentUniqueId=QJHHGFQM
 
 [Document4]
 DocumentPath=Rotary Switches.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=6
-DoLibraryUpdate=0
+DoLibraryUpdate=1
 DoDatabaseUpdate=0
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -107,7 +107,7 @@ DocumentUniqueId=SCCSPJYT
 
 [Document5]
 DocumentPath=High Side Drivers.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -124,7 +124,7 @@ DocumentUniqueId=HGSRSFYU
 
 [Document6]
 DocumentPath=Power.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -141,7 +141,7 @@ DocumentUniqueId=ICHKMTPL
 
 [Document7]
 DocumentPath=MCU_System.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -175,13 +175,13 @@ DocumentUniqueId=OSDRODBE
 
 [Document9]
 DocumentPath=..\Universal_Designs\RVP_OVP_LC.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=7
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -192,7 +192,7 @@ DocumentUniqueId=NGAUIJXD
 
 [Document10]
 DocumentPath=..\Universal_Designs\USB.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -209,7 +209,7 @@ DocumentUniqueId=BNLASOWS
 
 [Document11]
 DocumentPath=DRS_POT_LPFs.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -360,7 +360,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Bat Lab
+TargetPrinter=HP Photosmart 6520 series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1289,7 +1289,7 @@ ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=Altium-Lib.DbLib/Buttons&Switches
 ComponentDesignItemID2=2
 ComponentSymbolReference2=ROT SWITCH 13POS
-ComponentUpdate2=0
+ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Altium-Lib.DbLib/Buttons&Switches
@@ -1499,7 +1499,7 @@ ComponentLibIdentifierKind37=Library Name And Type
 ComponentLibraryIdentifier37=Altium-Lib.DbLib/Resistor
 ComponentDesignItemID37=289
 ComponentSymbolReference37=Resistor
-ComponentUpdate37=1
+ComponentUpdate37=0
 ComponentIsDeviceSheet37=0
 ComponentLibIdentifierKind38=Library Name And Type
 ComponentLibraryIdentifier38=Altium-Lib.DbLib/Resistor
@@ -1732,37 +1732,40 @@ ModelType12=PCBLIB
 ModelName12=RV16A-41
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=SOD-128
+ModelName13=SOD123F
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=SOIC-8
+ModelName14=SOD-128
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=SOT-23 (TO-236)
+ModelName15=SOIC-8
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=SOT23-3
+ModelName16=SOT-23 (TO-236)
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=SOT23-5
+ModelName17=SOT23-3
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=SSOP-28
+ModelName18=SOT23-5
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=TE_Amp_6437288-6
+ModelName19=SSOP-28
 ModelUpdate19=1
 ModelType20=PCBLIB
-ModelName20=TECO-1981568-5_V
+ModelName20=TE_Amp_6437288-6
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=TQFP64
+ModelName21=TECO-1981568-5_V
 ModelUpdate21=1
+ModelType22=PCBLIB
+ModelName22=TQFP64
+ModelUpdate22=1
 ModelTypeGroup1=SIM
 ModelTypeUpdate1=1
-ModelType22=SIM
-ModelName22=FUSE
-ModelUpdate22=1
+ModelType23=SIM
+ModelName23=FUSE
+ModelUpdate23=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
