@@ -3,3 +3,5 @@
 *.Zip
 *.LOG
 *Preview
+*.SchDocPreview
+*.PcbDocPreview
