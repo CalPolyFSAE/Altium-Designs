@@ -629,19 +629,19 @@ ChannelName89=Dashboard
 UniqueID89=\WNQJGQDB
 PhysicalDesignator89=R14
 PhysicalDesignatorLocked89=0
-LogicalDesignator90=R4
+LogicalDesignator90=X2
 LogicalPartID90=1
 DocumentName90=Dashboard.SchDoc
 ChannelName90=Dashboard
-UniqueID90=\WOCYRSQI
-PhysicalDesignator90=R4
+UniqueID90=\WRXJVRKV
+PhysicalDesignator90=X2
 PhysicalDesignatorLocked90=0
-LogicalDesignator91=X2
+LogicalDesignator91=P2
 LogicalPartID91=1
 DocumentName91=Dashboard.SchDoc
 ChannelName91=Dashboard
-UniqueID91=\WRXJVRKV
-PhysicalDesignator91=X2
+UniqueID91=\YXCIYYET
+PhysicalDesignator91=P2
 PhysicalDesignatorLocked91=0
 
 [SheetNumberManager]
