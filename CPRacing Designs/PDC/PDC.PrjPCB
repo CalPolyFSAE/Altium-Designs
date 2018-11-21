@@ -479,6 +479,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DVJFRBTD
 
+[GeneratedDocument1]
+DocumentPath=MessageListReport.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
