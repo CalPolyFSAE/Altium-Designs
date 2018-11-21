@@ -72,23 +72,6 @@ GenerateClassCluster=0
 DocumentUniqueId=JMSROMQR
 
 [Document3]
-DocumentPath=Rotary Switches.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=0
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SCCSPJYT
-
-[Document4]
 DocumentPath=High Side Drivers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HGSRSFYU
 
-[Document5]
+[Document4]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ICHKMTPL
 
-[Document6]
+[Document5]
 DocumentPath=MCU_System.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WOPSCSTU
 
-[Document7]
+[Document6]
 DocumentPath=Dashboard.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OSDRODBE
 
-[Document8]
+[Document7]
 DocumentPath=..\Universal_Designs\RVP_OVP_LC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NGAUIJXD
 
-[Document9]
+[Document8]
 DocumentPath=..\Universal_Designs\USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BNLASOWS
 
-[Document10]
+[Document9]
 DocumentPath=DRS_POT_LPFs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AGVJHIWY
 
-[Document11]
+[Document10]
 DocumentPath=Dashboard.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document11]
 DocumentPath=Dashboard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1235,30 +1218,22 @@ Order6=7
 IndexEnabled6=1
 IndexStartValue6=1
 Suffix6=
-UniqueIDPath7=\RKGJDPDV\KKOMFURK
-DocumentName7=Rotary Switches.SchDoc
+UniqueIDPath7=\RKGJDPDV\KXWXGRKJ
+DocumentName7=RVP_OVP_LC.SchDoc
 IsEnabled7=1
 SelectionScope7=All
-Order7=8
+Order7=9
 IndexEnabled7=1
 IndexStartValue7=1
 Suffix7=
-UniqueIDPath8=\RKGJDPDV\KXWXGRKJ
-DocumentName8=RVP_OVP_LC.SchDoc
+UniqueIDPath8=\RKGJDPDV\HPMKVNAP
+DocumentName8=USB.SchDoc
 IsEnabled8=1
 SelectionScope8=All
-Order8=9
+Order8=10
 IndexEnabled8=1
 IndexStartValue8=1
 Suffix8=
-UniqueIDPath9=\RKGJDPDV\HPMKVNAP
-DocumentName9=USB.SchDoc
-IsEnabled9=1
-SelectionScope9=All
-Order9=10
-IndexEnabled9=1
-IndexStartValue9=1
-Suffix9=
 
 [PrjClassGen]
 CompClassManualEnabled=0
