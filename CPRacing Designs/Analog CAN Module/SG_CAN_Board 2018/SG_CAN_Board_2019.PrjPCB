@@ -106,23 +106,6 @@ GenerateClassCluster=0
 DocumentUniqueId=AUSKQQTR
 
 [Document5]
-DocumentPath=SG_Amplifiers_LTC2053(120).SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HMTIAICP
-
-[Document6]
 DocumentPath=MCU_System.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FBUGLKXV
 
-[Document7]
+[Document6]
 DocumentPath=Amplifier_Filter_System.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LPWHPVUF
 
-[Document8]
+[Document7]
 DocumentPath=36Pin_SuperSeal_Conn.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OFPBCLDY
 
-[Document9]
+[Document8]
 DocumentPath=..\..\Universal_Designs\USB.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BNLASOWS
 
-[Document10]
+[Document9]
 DocumentPath=..\..\Universal_Designs\MCU_MKE185F512VLH16.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JMSROMQR
 
-[Document11]
+[Document10]
 DocumentPath=..\..\Universal_Designs\CAN_Tranceiver.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
@@ -224,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QJBIJXDW
 
-[Document12]
+[Document11]
 DocumentPath=SG_CAN_Board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -240,6 +223,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ELJHEWDS
+
+[Document12]
+DocumentPath=SG_Amplifiers_LTC2053.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=12
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FDGIFKGX
+
+[Document13]
+DocumentPath=SG_Feedback.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=13
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IMSRSRAD
 
 [Configuration1]
 Name=Sources
