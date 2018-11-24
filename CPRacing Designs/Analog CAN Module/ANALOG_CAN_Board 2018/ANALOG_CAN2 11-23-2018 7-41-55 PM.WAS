@@ -1,0 +1,131 @@
+D3 D1
+R12 R1
+C23 C1
+*2 *1
+R5_U_LBF Op-Amp Gain2 R2
+C14_U_Sallen-Key Filter3 C2
+D1 D2
+C8 C3
+C20 C4
+R25 R3
+C7 C5
+C3 C6
+R31 R4
+C19 C7
+R24 R5
+C6 C8
+C4 C9
+D5 D3
+C18 C10
+C16 C11
+C5 C12
+R2 R6
+C22 C13
+U3 U1
+R23 R7
+D2 D4
+*4 *2
+IC2 IC1
+R11 R8
+R30 R9
+R13 R10
+D4 D5
+*1 *3
+C15 C14
+R14 R11
+C17 C15
+R6_U_LBF Op-Amp Gain2 R12
+C21 C16
+C1 C17
+R9_U_Sallen-Key Filter3 R13
+R27 R14
+C2 C18
+R29 R16
+R16 R17
+R1 R18
+R28 R19
+R17 R20
+IC1 IC2
+R26 R21
+U4 U3
+R18 R22
+R19 R23
+R20 R24
+*3_U_LBF Op-Amp Gain2 *4
+R21 R25
+R10_U_Sallen-Key Filter3 R26
+R22 R27
+R3_U_LBF Op-Amp Gain2 R28
+C13_U_Sallen-Key Filter3 C19
+R4_U_LBF Op-Amp Gain2 R29
+C12_U_Sallen-Key Filter3 C20
+C11_U_Sallen-Key Filter3 C21
+R7_U_Sallen-Key Filter3 R30
+R8_U_Sallen-Key Filter3 R31
+U1_U_Sallen-Key Filter3 U4
+C10_U_Sallen-Key Filter3 C22
+C9_U_Sallen-Key Filter3 C23
+U1_U_Sallen-Key Filter5 U5
+C9_U_Sallen-Key Filter5 C24
+C10_U_Sallen-Key Filter5 C25
+C11_U_Sallen-Key Filter5 C26
+C12_U_Sallen-Key Filter5 C27
+C13_U_Sallen-Key Filter5 C28
+C14_U_Sallen-Key Filter5 C29
+R7_U_Sallen-Key Filter5 R32
+R8_U_Sallen-Key Filter5 R33
+R9_U_Sallen-Key Filter5 R34
+R10_U_Sallen-Key Filter5 R35
+*3_U_LBF Op-Amp Gain3 *5
+U1_U_Sallen-Key Filter1 U6
+U1_U_Sallen-Key Filter2 U7
+*3_U_LBF Op-Amp Gain5 *6
+*3_U_LBF Op-Amp Gain1 *7
+U1_U_Sallen-Key Filter4 U8
+R10_U_Sallen-Key Filter4 R36
+*3_U_LBF Op-Amp Gain4 *8
+C9_U_Sallen-Key Filter1 C30
+C9_U_Sallen-Key Filter2 C31
+C9_U_Sallen-Key Filter4 C32
+C10_U_Sallen-Key Filter1 C33
+C10_U_Sallen-Key Filter2 C34
+C10_U_Sallen-Key Filter4 C35
+C11_U_Sallen-Key Filter1 C36
+C11_U_Sallen-Key Filter2 C37
+C11_U_Sallen-Key Filter4 C38
+C12_U_Sallen-Key Filter1 C39
+C12_U_Sallen-Key Filter2 C40
+C12_U_Sallen-Key Filter4 C41
+C13_U_Sallen-Key Filter1 C42
+C13_U_Sallen-Key Filter2 C43
+C13_U_Sallen-Key Filter4 C44
+C14_U_Sallen-Key Filter1 C45
+C14_U_Sallen-Key Filter2 C46
+C14_U_Sallen-Key Filter4 C47
+R3_U_LBF Op-Amp Gain1 R37
+R3_U_LBF Op-Amp Gain3 R38
+R3_U_LBF Op-Amp Gain4 R39
+R3_U_LBF Op-Amp Gain5 R40
+R4_U_LBF Op-Amp Gain1 R41
+R4_U_LBF Op-Amp Gain3 R42
+R4_U_LBF Op-Amp Gain4 R43
+R4_U_LBF Op-Amp Gain5 R44
+R5_U_LBF Op-Amp Gain1 R45
+R5_U_LBF Op-Amp Gain3 R46
+R5_U_LBF Op-Amp Gain4 R47
+R5_U_LBF Op-Amp Gain5 R48
+R6_U_LBF Op-Amp Gain1 R49
+R6_U_LBF Op-Amp Gain3 R50
+R6_U_LBF Op-Amp Gain4 R51
+R6_U_LBF Op-Amp Gain5 R52
+R7_U_Sallen-Key Filter1 R53
+R7_U_Sallen-Key Filter2 R54
+R7_U_Sallen-Key Filter4 R55
+R8_U_Sallen-Key Filter1 R56
+R8_U_Sallen-Key Filter2 R57
+R8_U_Sallen-Key Filter4 R58
+R9_U_Sallen-Key Filter1 R59
+R9_U_Sallen-Key Filter2 R60
+R9_U_Sallen-Key Filter4 R61
+R10_U_Sallen-Key Filter1 R62
+R10_U_Sallen-Key Filter2 R63
