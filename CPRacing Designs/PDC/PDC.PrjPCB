@@ -52,7 +52,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=BNLASOWS
+DocumentUniqueId=SCWFXFKM
 
 [Document2]
 DocumentPath=Superseal.SchDoc
@@ -103,7 +103,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=QJBIJXDW
+DocumentUniqueId=HLOOFNBO
 
 [Document5]
 DocumentPath=..\Universal_Designs\MCU_MKE185F512VLH16.SchDoc
@@ -120,7 +120,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=JMSROMQR
+DocumentUniqueId=METTPYBJ
 
 [Document6]
 DocumentPath=Gate_driver.SchDoc
