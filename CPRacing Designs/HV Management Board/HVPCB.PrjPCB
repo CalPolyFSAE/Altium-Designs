@@ -122,6 +122,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KJQXFYFV
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for HVPCB\Design Rule Check - HVPCB.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
