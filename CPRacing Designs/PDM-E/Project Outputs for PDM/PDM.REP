@@ -227,3 +227,57 @@ Used DCodes :
     D51
 *************************************************************
 
+*************************************************************
+Generating : Non-plated through-hole drill file
+      File : PDM_NPTH_Drill.gbr
+
+
+Used DCodes :
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Plated through-hole drill file
+      File : PDM_PTH_Drill.gbr
+
+
+Used DCodes :
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : PDM_Drawing_1.gbr
+
+    Adding Drill Pair : Bottom Layer-Top Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D64
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : PDM_Drillmap_1.gbr
+
+    Adding Drill Pair : Bottom Layer-Top Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D64
+*************************************************************
+

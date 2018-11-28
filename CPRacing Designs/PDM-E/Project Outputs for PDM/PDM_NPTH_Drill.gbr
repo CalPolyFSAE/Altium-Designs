@@ -6,5 +6,14 @@ G04 Layer_Color=0*
 %TF.Part,Single*%
 G01*
 G75*
-%TF.MD5,7272b6bb0e9b9698b9781ee18b5062e3*%
+%TA.AperFunction,ComponentDrill*%
+%ADD52C,0.129921*%
+D52*
+X157480Y688976D02*
+D03*
+Y1968504D02*
+D03*
+Y3484252D02*
+D03*
+%TF.MD5,f06eddc6007bc81488b65d2d43dfeb46*%
 M02*

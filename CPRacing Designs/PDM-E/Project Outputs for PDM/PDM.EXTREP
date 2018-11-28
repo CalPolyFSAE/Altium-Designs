@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: PDM.GBR   11/27/2018  9:30:57 PM
+Gerber File Extension Report For: PDM.GBR   11/28/2018  12:34:30 AM
 ------------------------------------------------------------------------------------------
 
 
@@ -17,4 +17,8 @@ Layer Extension     Layer Description
 .gbr                Top Paste                               
 .gbr                Top Solder                              
 .gbr                Profile                                 
+.gbr                Non-plated through-hole drill file      
+.gbr                Plated through-hole drill file          
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
 ------------------------------------------------------------------------------------------
