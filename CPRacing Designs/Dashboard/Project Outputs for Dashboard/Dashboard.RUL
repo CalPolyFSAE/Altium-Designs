@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: D:\Documents\Github\Altium-Designs\CPRacing Designs\Dashboard\Dashboard.PcbDoc
+DRC Rules Export File for PCB: D:\Documents\Github\Repositories\Altium-Designs\CPRacing Designs\Dashboard\Dashboard.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=8.00
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00

@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Dashboard.GBR   11/27/2018  10:00:22 PM
+Gerber File Extension Report For: PDM.GBR   11/27/2018  9:30:57 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -16,10 +16,5 @@ Layer Extension     Layer Description
 .gbr                Top Overlay                             
 .gbr                Top Paste                               
 .gbr                Top Solder                              
-.gbr                Route Guide                             
 .gbr                Profile                                 
-.gbr                Non-plated through-hole drill file      
-.gbr                Plated through-hole drill file          
-.gbr                Drill Drawing                           
-.gbr                Drill Guide                             
 ------------------------------------------------------------------------------------------
