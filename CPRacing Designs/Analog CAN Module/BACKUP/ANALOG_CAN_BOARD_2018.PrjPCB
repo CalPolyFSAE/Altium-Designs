@@ -55,7 +55,7 @@ GenerateClassCluster=0
 DocumentUniqueId=HLOOFNBO
 
 [Document2]
-DocumentPath=ANALOG_CAN2.PcbDoc
+DocumentPath=..\ANALOG_CAN_Board 2018\ANALOG_CAN2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -89,7 +89,7 @@ GenerateClassCluster=0
 DocumentUniqueId=METTPYBJ
 
 [Document4]
-DocumentPath=MAX680_10V_Converter.SchDoc
+DocumentPath=..\ANALOG_CAN_Board 2018\MAX680_10V_Converter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=USBUYIYV
 
 [Document5]
-DocumentPath=TopLevel.SchDoc
+DocumentPath=..\ANALOG_CAN_Board 2018\TopLevel.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,13 +140,13 @@ GenerateClassCluster=0
 DocumentUniqueId=SCWFXFKM
 
 [Document7]
-DocumentPath=LBF Op-Amp Gain.SchDoc
+DocumentPath=..\ANALOG_CAN_Board 2018\LBF Op-Amp Gain.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -174,7 +174,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NGAUIJXD
 
 [Document9]
-DocumentPath=5V Reference.SchDoc
+DocumentPath=..\ANALOG_CAN_Board 2018\5V Reference.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -191,24 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YHEMBHMV
 
 [Document10]
-DocumentPath=Sallen-Key Filter.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IMYMXWEN
-
-[Document11]
-DocumentPath=..\..\Universal_Designs\Op-Amp Stage.SchDoc
+DocumentPath=..\ANALOG_CAN_Board 2018\Op-Amp Stage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -224,8 +207,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=THGRQMXD
 
+[Document11]
+DocumentPath=..\ANALOG_CAN_Board 2018\Sallen-Key Filter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IMYMXWEN
+
 [Document12]
-DocumentPath=Connectors.SchDoc
+DocumentPath=..\ANALOG_CAN_Board 2018\Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -242,7 +242,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TFEXBBJT
 
 [Document13]
-DocumentPath=OVP_MCU_PINS.SchDoc
+DocumentPath=..\ANALOG_CAN_Board 2018\OVP_MCU_PINS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -259,15 +259,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UTYUWETU
 
 [GeneratedDocument1]
-DocumentPath=ANALOG_CAN2 11-23-2018 7-41-55 PM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=ANALOG_CAN2 11-28-2018 1-31-10 AM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=ANALOG_CAN2 11-28-2018 12-52-58 AM.WAS
+DocumentPath=..\ANALOG_CAN_Board 2018\ANALOG_CAN2 11-23-2018 7-41-55 PM.WAS
 DItemRevisionGUID=
 
 [Configuration1]

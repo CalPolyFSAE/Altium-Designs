@@ -1,0 +1,179 @@
+R26 R1
+C23 C1
+R7_U_Sallen-Key Filter3 R2
+R8_U_Sallen-Key Filter3 R3
+R9_U_Sallen-Key Filter3 R4
+R10_U_Sallen-Key Filter3 R5
+U1_U_Sallen-Key Filter3 U1
+C9_U_Sallen-Key Filter3 C2
+U4 U2
+C12_U_Sallen-Key Filter3 C3
+R7_U_Sallen-Key Filter4 R6
+U1_U_Sallen-Key Filter4 U3
+C13_U_Sallen-Key Filter4 C4
+R31 R7
+C9_U_Sallen-Key Filter4 C5
+C10_U_Sallen-Key Filter4 C6
+C22 C7
+R30 R8
+R9_U_Sallen-Key Filter4 R9
+R6_U_LBF Op-Amp Gain5 R10
+C21 C8
+R10_U_Sallen-Key Filter4 R11
+D4 D1
+R8_U_Sallen-Key Filter4 R12
+C14_U_Sallen-Key Filter4 C9
+R39_U_LBF Op-Amp Gain5 R13
+D1 D3
+C12_U_Sallen-Key Filter4 C10
+C11_U_Sallen-Key Filter4 C11
+C3 C12
+R28 R14
+R38_U_LBF Op-Amp Gain5 R15
+R12 R16
+C17 C13
+C19 C14
+U3 U4
+C20 C15
+R1 R17
+R11 R18
+C24_U_LBF Op-Amp Gain3 C17
+R14 R19
+C1 C19
+R35_U_LBF Op-Amp Gain5 R20
+R27 R21
+*4 *1
+C7 C20
+C24_U_LBF Op-Amp Gain5 C21
+*3_U_LBF Op-Amp Gain2 *2
+C5 C22
+R36_U_LBF Op-Amp Gain5 R22
+R21 R23
+C6 C23
+C8 C24
+D3 D4
+U2 U5
+C15 C25
+R16 R24
+R23 R25
+R25 R26
+R37_U_LBF Op-Amp Gain5 R27
+R24 R28
+R13 R29
+R15 R30
+R34_U_LBF Op-Amp Gain5 R31
+R17 R32
+R18 R33
+R20 R34
+*3_U_LBF Op-Amp Gain1 *3
+R4_U_LBF Op-Amp Gain1 R35
+R5_U_LBF Op-Amp Gain1 R36
+R6_U_LBF Op-Amp Gain1 R37
+C24_U_LBF Op-Amp Gain1 C26
+C25_U_LBF Op-Amp Gain1 C27
+R32_U_LBF Op-Amp Gain5 R38
+R3_U_LBF Op-Amp Gain1 R39
+R32_U_LBF Op-Amp Gain1 R40
+R37_U_LBF Op-Amp Gain1 R41
+R38_U_LBF Op-Amp Gain1 R42
+R39_U_LBF Op-Amp Gain1 R43
+R36_U_LBF Op-Amp Gain1 R44
+R33_U_LBF Op-Amp Gain1 R45
+R34_U_LBF Op-Amp Gain1 R46
+R35_U_LBF Op-Amp Gain1 R47
+R33_U_LBF Op-Amp Gain5 R48
+R29 R49
+R5_U_LBF Op-Amp Gain5 R50
+R3_U_LBF Op-Amp Gain5 R51
+R4_U_LBF Op-Amp Gain5 R52
+R19 R53
+C25_U_LBF Op-Amp Gain5 C28
+R32_U_LBF Op-Amp Gain3 R54
+*3_U_LBF Op-Amp Gain3 *4
+R37_U_LBF Op-Amp Gain3 R55
+R4_U_LBF Op-Amp Gain3 R56
+R38_U_LBF Op-Amp Gain3 R57
+R5_U_LBF Op-Amp Gain3 R58
+R39_U_LBF Op-Amp Gain3 R59
+R6_U_LBF Op-Amp Gain3 R60
+R36_U_LBF Op-Amp Gain3 R61
+R33_U_LBF Op-Amp Gain3 R62
+C25_U_LBF Op-Amp Gain3 C29
+R34_U_LBF Op-Amp Gain3 R63
+R3_U_LBF Op-Amp Gain3 R64
+R35_U_LBF Op-Amp Gain3 R65
+*3_U_LBF Op-Amp Gain4 *5
+C2 C30
+C4 C31
+IC2 IC1
+*2 *6
+*1 *7
+U1_U_Sallen-Key Filter2 U6
+U1_U_Sallen-Key Filter1 U7
+R22 R66
+R10_U_Sallen-Key Filter2 R67
+IC1 IC2
+C14_U_Sallen-Key Filter1 C32
+R9_U_Sallen-Key Filter1 R68
+R9_U_Sallen-Key Filter2 R69
+R7_U_Sallen-Key Filter2 R70
+R8_U_Sallen-Key Filter2 R71
+C11_U_Sallen-Key Filter1 C33
+C14_U_Sallen-Key Filter2 C34
+C13_U_Sallen-Key Filter2 C35
+C12_U_Sallen-Key Filter2 C36
+R7_U_Sallen-Key Filter1 R72
+C13_U_Sallen-Key Filter1 C37
+C9_U_Sallen-Key Filter1 C38
+C11_U_Sallen-Key Filter2 C39
+C10_U_Sallen-Key Filter2 C40
+C9_U_Sallen-Key Filter2 C41
+C10_U_Sallen-Key Filter1 C42
+C12_U_Sallen-Key Filter1 C43
+R10_U_Sallen-Key Filter1 R73
+R8_U_Sallen-Key Filter1 R74
+*3_U_LBF Op-Amp Gain5 *8
+C12_U_Sallen-Key Filter5 C44
+C11_U_Sallen-Key Filter5 C45
+R9_U_Sallen-Key Filter5 R75
+C10_U_Sallen-Key Filter5 C46
+R7_U_Sallen-Key Filter5 R76
+C13_U_Sallen-Key Filter5 C47
+R10_U_Sallen-Key Filter5 R77
+C14_U_Sallen-Key Filter5 C48
+C9_U_Sallen-Key Filter5 C49
+R8_U_Sallen-Key Filter5 R78
+U1_U_Sallen-Key Filter5 U8
+C24_U_LBF Op-Amp Gain2 C50
+C24_U_LBF Op-Amp Gain4 C51
+C25_U_LBF Op-Amp Gain2 C52
+C25_U_LBF Op-Amp Gain4 C53
+R3_U_LBF Op-Amp Gain2 R79
+R3_U_LBF Op-Amp Gain4 R80
+R4_U_LBF Op-Amp Gain2 R81
+R4_U_LBF Op-Amp Gain4 R82
+R5_U_LBF Op-Amp Gain2 R83
+R5_U_LBF Op-Amp Gain4 R84
+R6_U_LBF Op-Amp Gain2 R85
+R6_U_LBF Op-Amp Gain4 R86
+R32_U_LBF Op-Amp Gain2 R87
+R32_U_LBF Op-Amp Gain4 R88
+R33_U_LBF Op-Amp Gain2 R89
+R33_U_LBF Op-Amp Gain4 R90
+R34_U_LBF Op-Amp Gain2 R91
+R34_U_LBF Op-Amp Gain4 R92
+R35_U_LBF Op-Amp Gain2 R93
+R35_U_LBF Op-Amp Gain4 R94
+R36_U_LBF Op-Amp Gain2 R95
+R36_U_LBF Op-Amp Gain4 R96
+R37_U_LBF Op-Amp Gain2 R97
+R37_U_LBF Op-Amp Gain4 R98
+R38_U_LBF Op-Amp Gain2 R99
+R38_U_LBF Op-Amp Gain4 R100
+R39_U_LBF Op-Amp Gain2 R101
+R39_U_LBF Op-Amp Gain4 R102
+R2 R103
+C10_U_Sallen-Key Filter3 C54
+C13_U_Sallen-Key Filter3 C55
+C11_U_Sallen-Key Filter3 C56
+C14_U_Sallen-Key Filter3 C57
