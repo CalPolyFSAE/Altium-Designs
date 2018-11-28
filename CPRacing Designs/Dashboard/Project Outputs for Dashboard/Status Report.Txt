@@ -9,6 +9,7 @@ From  : Project [Dashboard.PrjPCB]
    Generated File[Dashboard_Legend_Top.gbr]
    Generated File[Dashboard_Paste_Top.gbr]
    Generated File[Dashboard_Soldermask_Top.gbr]
+   Generated File[Dashboard_Profile.gbr]
    Generated File[Dashboard_NPTH_Drill.gbr]
    Generated File[Dashboard_PTH_Drill.gbr]
    Generated File[Dashboard_Drawing_1.gbr]
@@ -18,7 +19,7 @@ From  : Project [Dashboard.PrjPCB]
    Generated File[Dashboard.REP]
 
 
-Files Generated   : 15
+Files Generated   : 16
 Documents Printed : 0
 
-Finished Output Generation At 7:08:02 PM On 11/27/2018
+Finished Output Generation At 7:36:27 PM On 11/27/2018
