@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: D:\Documents\Github\Repositories\Altium-Designs\CPRacing Designs\Control Board\ControlBoard_v3.PcbDoc
+DRC Rules Export File for PCB: C:\Users\jonat\OneDrive\Documents\GitHub\Altium-Designs\CPRacing Designs\Control Board\ControlBoard_v3.PcbDoc
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=5.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=8.00

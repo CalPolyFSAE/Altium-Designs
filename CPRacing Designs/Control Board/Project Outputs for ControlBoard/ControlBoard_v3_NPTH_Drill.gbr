@@ -1,4 +1,4 @@
-%TF.GenerationSoftware,Altium Limited,Altium Designer,18.1.7 (191)*%
+%TF.GenerationSoftware,Altium Limited,Altium Designer,18.1.9 (240)*%
 G04 Layer_Color=0*
 %FSLAX26Y26*%
 %MOIN*%
@@ -7,19 +7,19 @@ G04 Layer_Color=0*
 G01*
 G75*
 %TA.AperFunction,ComponentDrill*%
-%ADD134C,0.039370*%
-%ADD135C,0.129921*%
-D134*
+%ADD131C,0.039370*%
+%ADD132C,0.129921*%
+D131*
 X9925000Y4800000D02*
 D03*
 Y4650000D02*
 D03*
-D135*
+D132*
 X11757441Y2978740D02*
 D03*
 Y4494488D02*
 D03*
 Y5774016D02*
 D03*
-%TF.MD5,b20949d008c1d80045f0212bbcced4c6*%
+%TF.MD5,4a74dde976f880f829fb655dc6b2e42f*%
 M02*

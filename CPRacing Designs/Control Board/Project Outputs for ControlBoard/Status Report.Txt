@@ -11,6 +11,10 @@ From  : Project [ControlBoard.PrjPCB]
    Generated File[ControlBoard_v3_Legend_Top.gbr]
    Generated File[ControlBoard_v3_Paste_Top.gbr]
    Generated File[ControlBoard_v3_Soldermask_Top.gbr]
+   Generated File[ControlBoard_v3_Keep-out.gbr]
+   Generated File[ControlBoard_v3_Mechanical_13.gbr]
+   Generated File[ControlBoard_v3_Mechanical_1.gbr]
+   Generated File[ControlBoard_v3_Mechanical_15.gbr]
    Generated File[ControlBoard_v3_Profile.gbr]
    Generated File[ControlBoard_v3_NPTH_Drill.gbr]
    Generated File[ControlBoard_v3_PTH_Drill.gbr]
@@ -21,7 +25,7 @@ From  : Project [ControlBoard.PrjPCB]
    Generated File[ControlBoard_v3.REP]
 
 
-Files Generated   : 18
+Files Generated   : 22
 Documents Printed : 0
 
-Finished Output Generation At 3:01:51 AM On 11/28/2018
+Finished Output Generation At 7:54:10 PM On 11/28/2018
