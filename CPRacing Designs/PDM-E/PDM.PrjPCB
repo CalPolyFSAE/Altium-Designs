@@ -245,38 +245,54 @@ DocumentPath=Project Outputs for PDM\PDM_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for PDM\PDM_Legend_Bot.gbr
+DocumentPath=Project Outputs for PDM\PDM_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for PDM\PDM_Legend_Top.gbr
+DocumentPath=Project Outputs for PDM\PDM_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for PDM\PDM_Pads_Bot.gbr
+DocumentPath=Project Outputs for PDM\PDM_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for PDM\PDM_Pads_Top.gbr
+DocumentPath=Project Outputs for PDM\PDM_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for PDM\PDM_Paste_Bot.gbr
+DocumentPath=Project Outputs for PDM\PDM_NPTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for PDM\PDM_Paste_Top.gbr
+DocumentPath=Project Outputs for PDM\PDM_Pads_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for PDM\PDM_Profile.gbr
+DocumentPath=Project Outputs for PDM\PDM_Pads_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for PDM\PDM_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for PDM\PDM_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
+DocumentPath=Project Outputs for PDM\PDM_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for PDM\PDM_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for PDM\PDM_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for PDM\PDM_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument18]
 DocumentPath=Project Outputs for PDM\PDM_Soldermask_Top.gbr
 DItemRevisionGUID=
 
@@ -555,7 +571,7 @@ OutputDefault10=0
 Configuration10_Name1=ForceUpdateSettings
 Configuration10_Item1=False
 Configuration10_Name2=OutputConfigurationParameter1
-Configuration10_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Imperial|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16973831~1,16973849~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16973834~1,16973848~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False
+Configuration10_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Imperial|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_HighLayer=Top Layer|PlotDrillDrawingPair0_LowLayer=Bottom Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_HighLayer=Top Layer|PlotDrillGuidePair0_LowLayer=Bottom Layer|PlotDrillGuidePairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16973831~1,16973849~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16973834~1,16973848~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False
 OutputType11=Final
 OutputName11=Final Artwork Prints
 OutputDocumentPath11=
