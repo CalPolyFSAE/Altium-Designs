@@ -1,27 +1,9 @@
-Output: Gerber X2 Files
-Type  : GerberX2
-From  : Project [PDM.PrjPCB]
-   Generated File[PDM_Copper_Signal_Top.gbr]
-   Generated File[PDM_Copper_Signal_Bot.gbr]
-   Generated File[PDM_Pads_Bot.gbr]
-   Generated File[PDM_Pads_Top.gbr]
-   Generated File[PDM_Legend_Bot.gbr]
-   Generated File[PDM_Soldermask_Bot.gbr]
-   Generated File[PDM_Paste_Bot.gbr]
-   Generated File[PDM_Legend_Top.gbr]
-   Generated File[PDM_Paste_Top.gbr]
-   Generated File[PDM_Soldermask_Top.gbr]
-   Generated File[PDM_Profile.gbr]
-   Generated File[PDM_NPTH_Drill.gbr]
-   Generated File[PDM_PTH_Drill.gbr]
-   Generated File[PDM_Drawing_1.gbr]
-   Generated File[PDM_Drillmap_1.gbr]
-   Generated File[PDM.RUL]
-   Generated File[PDM.EXTREP]
-   Generated File[PDM.REP]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [PDM.PrjPCB]
 
 
-Files Generated   : 18
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 11:20:38 PM On 11/28/2018
+Finished Output Generation At 4:04:23 AM On 11/29/2018
