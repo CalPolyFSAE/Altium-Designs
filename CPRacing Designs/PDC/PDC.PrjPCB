@@ -463,7 +463,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document26]
-DocumentPath=PDC_A.PcbDoc
+DocumentPath=PDC.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -477,7 +477,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=BCWQVEPX
+DocumentUniqueId=EWXCDECS
 
 [GeneratedDocument1]
 DocumentPath=MessageListReport.html
