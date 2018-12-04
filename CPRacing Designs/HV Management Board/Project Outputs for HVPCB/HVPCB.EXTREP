@@ -1,25 +1,26 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: HVPCB.GBR   12/1/2018  4:17:16 PM
+Gerber File Extension Report For: HVPCB.GBR   12/4/2018  12:14:12 AM
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
-.gbr                Top Layer                               
-.gbr                Bottom Layer                            
-.gbr                Bottom Pad Master                       
-.gbr                Top Pad Master                          
-.gbr                Bottom Overlay                          
-.gbr                Bottom Solder                           
-.gbr                Bottom Paste                            
-.gbr                Top Overlay                             
-.gbr                Top Paste                               
-.gbr                Top Solder                              
-.gbr                Route Guide                             
-.gbr                Profile                                 
-.gbr                Non-plated through-hole drill file      
-.gbr                Plated through-hole drill file          
-.gbr                Drill Drawing                           
-.gbr                Drill Guide                             
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GM13               Mechanical 13                           
+.GM15               Mechanical 15                           
+.GM32767            Route Guide                             
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.1                  Dielectric 1                            
+.GML                Multi-Layer                             
 ------------------------------------------------------------------------------------------
