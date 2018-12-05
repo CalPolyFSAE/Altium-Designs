@@ -1,31 +1,9 @@
-Output: Gerber X2 Files
-Type  : GerberX2
-From  : Project [ControlBoard.PrjPCB]
-   Generated File[ControlBoard_v3_Copper_Signal_Top.gbr]
-   Generated File[ControlBoard_v3_Copper_Signal_Bot.gbr]
-   Generated File[ControlBoard_v3_Pads_Bot.gbr]
-   Generated File[ControlBoard_v3_Pads_Top.gbr]
-   Generated File[ControlBoard_v3_Legend_Bot.gbr]
-   Generated File[ControlBoard_v3_Soldermask_Bot.gbr]
-   Generated File[ControlBoard_v3_Paste_Bot.gbr]
-   Generated File[ControlBoard_v3_Legend_Top.gbr]
-   Generated File[ControlBoard_v3_Paste_Top.gbr]
-   Generated File[ControlBoard_v3_Soldermask_Top.gbr]
-   Generated File[ControlBoard_v3_Keep-out.gbr]
-   Generated File[ControlBoard_v3_Mechanical_13.gbr]
-   Generated File[ControlBoard_v3_Mechanical_1.gbr]
-   Generated File[ControlBoard_v3_Mechanical_15.gbr]
-   Generated File[ControlBoard_v3_Profile.gbr]
-   Generated File[ControlBoard_v3_NPTH_Drill.gbr]
-   Generated File[ControlBoard_v3_PTH_Drill.gbr]
-   Generated File[ControlBoard_v3_Drawing_1.gbr]
-   Generated File[ControlBoard_v3_Drillmap_1.gbr]
-   Generated File[ControlBoard_v3.RUL]
-   Generated File[ControlBoard_v3.EXTREP]
-   Generated File[ControlBoard_v3.REP]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [ControlBoard.PrjPCB]
 
 
-Files Generated   : 22
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 8:49:57 PM On 11/28/2018
+Finished Output Generation At 11:31:13 PM On 12/1/2018
