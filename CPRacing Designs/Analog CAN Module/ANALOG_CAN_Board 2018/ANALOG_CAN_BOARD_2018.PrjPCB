@@ -140,23 +140,6 @@ GenerateClassCluster=0
 DocumentUniqueId=SCWFXFKM
 
 [Document7]
-DocumentPath=LBF Op-Amp Gain.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JRRURPRP
-
-[Document8]
 DocumentPath=..\..\Universal_Designs\RVP_OVP_LC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NGAUIJXD
 
-[Document9]
+[Document8]
 DocumentPath=5V Reference.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YHEMBHMV
 
-[Document10]
+[Document9]
 DocumentPath=Sallen-Key Filter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IMYMXWEN
 
-[Document11]
+[Document10]
 DocumentPath=..\..\Universal_Designs\Op-Amp Stage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=THGRQMXD
 
-[Document12]
+[Document11]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TFEXBBJT
 
-[Document13]
+[Document12]
 DocumentPath=OVP_MCU_PINS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
