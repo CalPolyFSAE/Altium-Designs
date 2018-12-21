@@ -123,6 +123,23 @@ GenerateClassCluster=0
 DocumentUniqueId=BORBNRUO
 
 [Document6]
+DocumentPath=Power circuit.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ATKMVNOS
+
+[Document7]
 DocumentPath=Sensors11-20.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,8 +156,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UMYIRMAW
 
-[Document7]
-DocumentPath=Power circuit.SchDoc
+[Document8]
+DocumentPath=AeroPressureSensor.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -154,7 +171,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ATKMVNOS
+DocumentUniqueId=ICFJPPLY
 
 [Configuration1]
 Name=Sources
