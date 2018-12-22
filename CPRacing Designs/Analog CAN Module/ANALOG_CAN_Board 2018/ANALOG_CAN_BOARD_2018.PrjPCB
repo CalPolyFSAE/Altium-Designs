@@ -253,6 +253,14 @@ DItemRevisionGUID=
 DocumentPath=ANALOG_CAN2 11-28-2018 12-52-58 AM.WAS
 DItemRevisionGUID=
 
+[GeneratedDocument4]
+DocumentPath=ANALOG_CAN2 12-21-2018 2-21-45 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=ANALOG_CAN2 12-21-2018 5-02-54 PM.WAS
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
