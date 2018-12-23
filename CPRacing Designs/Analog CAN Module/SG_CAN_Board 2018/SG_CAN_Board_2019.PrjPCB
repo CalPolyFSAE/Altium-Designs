@@ -257,6 +257,10 @@ DItemRevisionGUID=
 DocumentPath=SG_CAN_Board 12-22-2018 8-22-59 PM.WAS
 DItemRevisionGUID=
 
+[GeneratedDocument5]
+DocumentPath=SG_CAN_Board 12-22-2018 10-50-39 PM.WAS
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
