@@ -1,0 +1,27 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [ANALOG_CAN_BOARD_2018.PrjPCB]
+   Generated File[ANALOG_CAN2_Copper_Signal_Top.gbr]
+   Generated File[ANALOG_CAN2_Copper_Signal_Bot.gbr]
+   Generated File[ANALOG_CAN2_Pads_Bot.gbr]
+   Generated File[ANALOG_CAN2_Pads_Top.gbr]
+   Generated File[ANALOG_CAN2_Legend_Bot.gbr]
+   Generated File[ANALOG_CAN2_Soldermask_Bot.gbr]
+   Generated File[ANALOG_CAN2_Paste_Bot.gbr]
+   Generated File[ANALOG_CAN2_Legend_Top.gbr]
+   Generated File[ANALOG_CAN2_Paste_Top.gbr]
+   Generated File[ANALOG_CAN2_Soldermask_Top.gbr]
+   Generated File[ANALOG_CAN2_Profile.gbr]
+   Generated File[ANALOG_CAN2_NPTH_Drill.gbr]
+   Generated File[ANALOG_CAN2_PTH_Drill.gbr]
+   Generated File[ANALOG_CAN2_Drawing_1.gbr]
+   Generated File[ANALOG_CAN2_Drillmap_1.gbr]
+   Generated File[ANALOG_CAN2.RUL]
+   Generated File[ANALOG_CAN2.EXTREP]
+   Generated File[ANALOG_CAN2.REP]
+
+
+Files Generated   : 18
+Documents Printed : 0
+
+Finished Output Generation At 4:56:20 PM On 12/22/2018
