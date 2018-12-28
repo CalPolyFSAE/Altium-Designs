@@ -156,6 +156,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IFOBHWBS
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for DEV Board\Design Rule Check - DEV BOARD PCB.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
