@@ -1,0 +1,341 @@
+*************************************************************
+FileName = Pressure_Tap_Board.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : Pressure_Tap_Board_Copper_Signal_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Pressure_Tap_Board_Copper_Signal_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : Pressure_Tap_Board_Pads_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D40
+    D41
+    D42
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : Pressure_Tap_Board_Pads_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Pressure_Tap_Board_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Pressure_Tap_Board_Soldermask_Bot.gbr
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Pressure_Tap_Board_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D40
+    D41
+    D42
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Pressure_Tap_Board_Legend_Top.gbr
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D44
+    D45
+    D46
+    D58
+    D59
+    D60
+    D61
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Pressure_Tap_Board_Paste_Top.gbr
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Pressure_Tap_Board_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : Pressure_Tap_Board_Profile.gbr
+
+
+Used DCodes :
+    D83
+*************************************************************
+
+*************************************************************
+Generating : Non-plated through-hole drill file
+      File : Pressure_Tap_Board_NPTH_Drill.gbr
+
+
+Used DCodes :
+    D84
+    D85
+*************************************************************
+
+*************************************************************
+Generating : Plated through-hole drill file
+      File : Pressure_Tap_Board_PTH_Drill.gbr
+
+
+Used DCodes :
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : Pressure_Tap_Board_Drawing_1.gbr
+
+    Adding Drill Pair : Bottom Layer-Top Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D93
+    D94
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : Pressure_Tap_Board_Drillmap_1.gbr
+
+    Adding Drill Pair : Bottom Layer-Top Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D93
+*************************************************************
+

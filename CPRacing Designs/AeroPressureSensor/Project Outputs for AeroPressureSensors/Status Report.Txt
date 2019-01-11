@@ -1,0 +1,27 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [AeroPressureSensors.PrjPCB]
+   Generated File[Pressure_Tap_Board_Copper_Signal_Top.gbr]
+   Generated File[Pressure_Tap_Board_Copper_Signal_Bot.gbr]
+   Generated File[Pressure_Tap_Board_Pads_Bot.gbr]
+   Generated File[Pressure_Tap_Board_Pads_Top.gbr]
+   Generated File[Pressure_Tap_Board_Legend_Bot.gbr]
+   Generated File[Pressure_Tap_Board_Soldermask_Bot.gbr]
+   Generated File[Pressure_Tap_Board_Paste_Bot.gbr]
+   Generated File[Pressure_Tap_Board_Legend_Top.gbr]
+   Generated File[Pressure_Tap_Board_Paste_Top.gbr]
+   Generated File[Pressure_Tap_Board_Soldermask_Top.gbr]
+   Generated File[Pressure_Tap_Board_Profile.gbr]
+   Generated File[Pressure_Tap_Board_NPTH_Drill.gbr]
+   Generated File[Pressure_Tap_Board_PTH_Drill.gbr]
+   Generated File[Pressure_Tap_Board_Drawing_1.gbr]
+   Generated File[Pressure_Tap_Board_Drillmap_1.gbr]
+   Generated File[Pressure_Tap_Board.RUL]
+   Generated File[Pressure_Tap_Board.EXTREP]
+   Generated File[Pressure_Tap_Board.REP]
+
+
+Files Generated   : 18
+Documents Printed : 0
+
+Finished Output Generation At 8:06:17 PM On 1/10/2019
