@@ -1,0 +1,118 @@
+X2 X1
+U3 U1
+R27_U_Sallen-Key Filter1 R1
+R25_U_Sallen-Key Filter1 R2
+R27_U_Sallen-Key Filter4 R3
+R25_U_Sallen-Key Filter4 R4
+R27_U_Sallen-Key Filter5 R5
+R25_U_Sallen-Key Filter5 R6
+R27_U_Sallen-Key Filter3 R7
+R25_U_Sallen-Key Filter3 R8
+R27_U_Sallen-Key Filter2 R9
+R25_U_Sallen-Key Filter2 R10
+C6 C1
+C5 C2
+R28_U_Sallen-Key Filter1 R11
+R26_U_Sallen-Key Filter1 R12
+R28_U_Sallen-Key Filter4 R13
+R26_U_Sallen-Key Filter4 R14
+R28_U_Sallen-Key Filter5 R15
+R26_U_Sallen-Key Filter5 R16
+R28_U_Sallen-Key Filter3 R17
+R26_U_Sallen-Key Filter3 R18
+R28_U_Sallen-Key Filter2 R19
+R26_U_Sallen-Key Filter2 R20
+R3 R21
+U7_U_Sallen-Key Filter1 U2
+U7_U_Sallen-Key Filter4 U3
+U7_U_Sallen-Key Filter5 U4
+U7_U_Sallen-Key Filter3 U5
+U7_U_Sallen-Key Filter2 U6
+*3 *1
+C23_U_Sallen-Key Filter1 C3
+C20_U_Sallen-Key Filter1 C4
+C23_U_Sallen-Key Filter4 C5
+C20_U_Sallen-Key Filter4 C6
+C23_U_Sallen-Key Filter5 C7
+C20_U_Sallen-Key Filter5 C8
+C23_U_Sallen-Key Filter3 C9
+C20_U_Sallen-Key Filter3 C10
+C23_U_Sallen-Key Filter2 C11
+C20_U_Sallen-Key Filter2 C12
+U2 U7
+R13 R22
+R14 R23
+R11 R24
+R6 R25
+R9 R26
+R7 R27
+R15 R28
+R10 R29
+R8 R30
+R12 R31
+A3 A1
+A5 A2
+A4 A3
+A2 A4
+A1 A5
+R2 R32
+C3 C13
+C4 C14
+U5 U8
+C11 C15
+U4 U9
+C14 C16
+C15 C17
+C16 C18
+R18 R33
+R22 R34
+R21 R35
+D3 D1
+*1 *3
+C1 C19
+C17 C20
+R1 R36
+R20 R37
+U1 U10
+C2 C21
+R19 R38
+C13 C22
+D1 D2
+R4 R39
+D2 D3
+U6 U11
+R5 R40
+X1 X2
+D5 D4
+R24 R41
+D4 D5
+R23 R42
+C19 C23
+C18 C24
+R16 R43
+R17 R44
+C12 C25
+C7 C26
+C21_U_Sallen-Key Filter1 C27
+C21_U_Sallen-Key Filter4 C28
+C21_U_Sallen-Key Filter5 C29
+C21_U_Sallen-Key Filter3 C30
+C21_U_Sallen-Key Filter2 C31
+C8 C32
+C24_U_Sallen-Key Filter4 C33
+C24_U_Sallen-Key Filter1 C34
+C24_U_Sallen-Key Filter5 C35
+C24_U_Sallen-Key Filter3 C36
+C24_U_Sallen-Key Filter2 C37
+C25_U_Sallen-Key Filter1 C38
+C22_U_Sallen-Key Filter1 C39
+C25_U_Sallen-Key Filter4 C40
+C22_U_Sallen-Key Filter4 C41
+C25_U_Sallen-Key Filter5 C42
+C22_U_Sallen-Key Filter5 C43
+C25_U_Sallen-Key Filter3 C44
+C22_U_Sallen-Key Filter3 C45
+C25_U_Sallen-Key Filter2 C46
+C22_U_Sallen-Key Filter2 C47
+C9 C48
+C10 C49

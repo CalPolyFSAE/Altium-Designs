@@ -157,23 +157,6 @@ GenerateClassCluster=0
 DocumentUniqueId=NGAUIJXD
 
 [Document8]
-DocumentPath=5V Reference.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YHEMBHMV
-
-[Document9]
 DocumentPath=Sallen-Key Filter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IMYMXWEN
 
-[Document10]
+[Document9]
 DocumentPath=..\..\Universal_Designs\Op-Amp Stage.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -206,6 +189,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=THGRQMXD
+
+[Document10]
+DocumentPath=5V Reference.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YHEMBHMV
 
 [Document11]
 DocumentPath=Connectors.SchDoc
@@ -254,67 +254,67 @@ DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=..\..\..\..\..\..\Desktop\ANALOG_CAN2.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument5]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Drawing_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Drillmap_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Legend_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Legend_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_NPTH_Drill.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Pads_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Pads_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Paste_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Paste_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Profile.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_PTH_Drill.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=ANALOG_CAN2 1-9-2019 1-58-19 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument20]
@@ -626,6 +626,10 @@ OutputName12=Gerber Files
 OutputDocumentPath12=
 OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
