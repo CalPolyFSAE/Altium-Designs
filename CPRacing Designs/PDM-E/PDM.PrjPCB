@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=IRWMQACR
 
 [Document10]
-DocumentPath=PDM.PcbDoc
+DocumentPath=PDM_rev2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
