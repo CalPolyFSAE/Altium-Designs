@@ -1,0 +1,323 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\KevinMBP\Documents\GitHub\Altium-Designs\CPRacing Designs\PDM-C\PDM-C\PDM-C_Board.PcbDoc
+Date     : 2/2/2019
+Time     : 3:29:55 PM
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D10-1(2516.437mil,410mil) on Top Layer And Pad D10-2(2596.437mil,410mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R7-1(2210mil,280mil) on Top Layer And Pad D10-1(2516.437mil,410mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D10-2(2596.437mil,410mil) on Top Layer And Pad R12-1(2937.541mil,304.764mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad D10-3(2556.437mil,555.946mil) on Top Layer And Track (3006.437mil,501.418mil)(3006.437mil,630mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED1_1 Between Pad K1-COM(1386.654mil,2055.002mil) on Multi-Layer And Pad D1-1(1410mil,4131.93mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LC_7 Between Pad D11-1(2770mil,4121.93mil) on Top Layer And Pad F7-1(2773.222mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED4_2 Between Track (2769.016mil,4352.364mil)(2769.016mil,4360mil) on Bottom Layer And Pad D11-2(2770mil,4238.072mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LC_6 Between Pad D12-1(3110mil,4121.928mil) on Top Layer And Pad F8-1(3114.862mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED5_2 Between Track (3109.016mil,4352.364mil)(3109.016mil,4360mil) on Bottom Layer And Pad D12-2(3110mil,4238.07mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LC_5 Between Pad D13-1(3449.998mil,4121.928mil) on Top Layer And Pad F9-1(3456.502mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED6_2 Between Track (3449.016mil,4352.364mil)(3449.016mil,4360mil) on Bottom Layer And Pad D13-2(3449.998mil,4238.07mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LC_4 Between Pad D14-1(3789.998mil,4121.928mil) on Top Layer And Pad F10-1(3798.144mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED7_2 Between Track (3789.016mil,4352.364mil)(3789.016mil,4360mil) on Bottom Layer And Pad D14-2(3789.998mil,4238.07mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LC_3 Between Pad D15-1(4129.998mil,4121.928mil) on Top Layer And Pad F11-1(4139.786mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED8_2 Between Track (4129.016mil,4352.364mil)(4129.016mil,4360mil) on Bottom Layer And Pad D15-2(4129.998mil,4238.07mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LC_2 Between Pad D16-1(4469.998mil,4121.928mil) on Top Layer And Pad F12-1(4481.428mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED9_2 Between Track (4469.016mil,4352.364mil)(4469.016mil,4360mil) on Bottom Layer And Pad D16-2(4469.998mil,4238.07mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LC_1 Between Pad D17-1(4809.998mil,4121.928mil) on Top Layer And Pad F13-1(4823.07mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_1 Between Pad X1-A1(720.866mil,3014.566mil) on Multi-Layer And Pad D17-1(4809.998mil,4121.928mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED10_2 Between Track (4809.016mil,4352.364mil)(4809.016mil,4360mil) on Bottom Layer And Pad D17-2(4809.998mil,4238.07mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED2_1 Between Pad K2-COM(1736.654mil,2055.002mil) on Multi-Layer And Pad D3-1(1749.998mil,4131.93mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED2_2 Between Track (1749.016mil,4362.364mil)(1749.016mil,4370mil) on Bottom Layer And Pad D3-2(1749.998mil,4248.07mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED3_1 Between Pad K3-COM(2086.656mil,2055.002mil) on Multi-Layer And Pad D5-1(2090mil,4131.928mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED3_2 Between Track (2089.016mil,4362.364mil)(2089.016mil,4370mil) on Bottom Layer And Pad D5-2(2090mil,4248.07mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad T1-mb(2031.437mil,555.475mil) on Top Layer And Pad D7-2(2279.999mil,518.07mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED11_1 Between Pad D8-1(2431.578mil,4127.204mil) on Top Layer And Pad K4-COM(2436.654mil,2055.002mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED11_2 Between Track (2430.594mil,4357.64mil)(2430.594mil,4365.276mil) on Bottom Layer And Pad D8-2(2431.578mil,4243.346mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LC_4 Between Pad F10-1(3798.144mil,1825.276mil) on Multi-Layer And Pad F10-1(3932.004mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_4 Between Pad X1-A4(720.866mil,2660.236mil) on Multi-Layer And Pad F10-1(3798.144mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_IN Between Pad F1-1(1045mil,690mil) on Multi-Layer And Pad F1-1(1045mil,823.858mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_IN Between Pad PWR_IN1-1(1032.737mil,183.544mil) on Top Layer And Pad F1-1(1045mil,690mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_IN Between Pad F1-1(1045mil,823.858mil) on Multi-Layer And Pad F2-1(1045mil,994.922mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_3 Between Pad F11-1(4139.786mil,1825.276mil) on Multi-Layer And Pad F11-1(4273.646mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_3 Between Pad X1-A3(720.866mil,2778.346mil) on Multi-Layer And Pad F11-1(4139.786mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_2 Between Pad F12-1(4481.428mil,1825.276mil) on Multi-Layer And Pad F12-1(4615.288mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_2 Between Pad X1-A2(720.866mil,2896.456mil) on Multi-Layer And Pad F12-1(4481.428mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_1 Between Pad F13-1(4823.07mil,1825.276mil) on Multi-Layer And Pad F13-1(4956.93mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_IN Between Pad F2-1(1045mil,994.922mil) on Multi-Layer And Pad F2-1(1045mil,1128.78mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_IN Between Pad X1-B4(720.866mil,1144.488mil) on Multi-Layer And Pad F2-1(1045mil,1128.78mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad F3-2(1406.654mil,1434.724mil) on Multi-Layer And Pad J2-1(1461.654mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LC_7 Between Pad F7-1(2773.222mil,1825.276mil) on Multi-Layer And Pad F7-1(2907.08mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_7 Between Pad X1-A34(405.906mil,2069.684mil) on Multi-Layer And Pad F7-1(2773.222mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_6 Between Pad F8-1(3114.862mil,1825.276mil) on Multi-Layer And Pad F8-1(3248.722mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_6 Between Pad X1-A6(720.866mil,2424.016mil) on Multi-Layer And Pad F8-1(3114.862mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_5 Between Pad F9-1(3456.502mil,1825.276mil) on Multi-Layer And Pad F9-1(3590.362mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_5 Between Pad X1-A5(720.866mil,2542.126mil) on Multi-Layer And Pad F9-1(3456.502mil,1825.276mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Relay_Sig_LC Between Pad X1-A11(622.44mil,2837.402mil) on Multi-Layer And Pad J10-1(2415mil,2895.552mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net Relay_Sig_LC Between Pad J10-1(2415mil,2895.552mil) on Top Layer And Track (2436.654mil,2767.796mil)(2448.86mil,2780.002mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J10-2(2415mil,2964.45mil) on Top Layer And Pad J12-1(2621.654mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J9-1(2271.653mil,2964.45mil) on Top Layer And Pad J10-2(2415mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J10-2(2415mil,2964.45mil) on Top Layer And Pad R8-2(2431.578mil,4532.324mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net Relay_Sig_HC_3 Between Pad J1-1(1365mil,2895.552mil) on Top Layer And Track (1386.654mil,2645.554mil)(1386.654mil,2767.796mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad J8-1(2161.654mil,2964.45mil) on Top Layer And Pad J11-1(2511.652mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD1_U_Relay4_1 Between Pad J11-2(2511.652mil,2895.552mil) on Top Layer And Pad J12-2(2621.654mil,2895.552mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD1_U_Relay4_1 Between Pad J11-2(2511.652mil,2895.552mil) on Top Layer And Track (2565.002mil,2778.034mil)(2565.002mil,2780.002mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-2(1365mil,2964.45mil) on Top Layer And Pad J3-1(1571.652mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad J2-1(1461.654mil,2964.45mil) on Top Layer And Pad J5-1(1811.654mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad LED1-1(1410mil,4845.276mil) on Top Layer And Pad J2-1(1461.654mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD1_U_Relay1_1 Between Pad J2-2(1461.654mil,2895.552mil) on Top Layer And Pad J3-2(1571.652mil,2895.552mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD1_U_Relay1_1 Between Pad J2-2(1461.654mil,2895.552mil) on Top Layer And Track (1515.002mil,2778.034mil)(1515.002mil,2780.002mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J3-1(1571.652mil,2964.45mil) on Top Layer And Pad J4-2(1715mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net Relay_Sig_HC_2 Between Pad X1-A18(504.33mil,2955.512mil) on Multi-Layer And Pad J4-1(1715mil,2895.554mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net Relay_Sig_HC_2 Between Pad J4-1(1715mil,2895.554mil) on Top Layer And Track (1736.654mil,2645.554mil)(1736.654mil,2767.796mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J4-2(1715mil,2964.45mil) on Top Layer And Pad J6-1(1921.654mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad J5-1(1811.654mil,2964.45mil) on Top Layer And Pad J8-1(2161.654mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD1_U_Relay2_1 Between Pad J5-2(1811.654mil,2895.554mil) on Top Layer And Pad J6-2(1921.654mil,2895.554mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD1_U_Relay2_1 Between Pad J5-2(1811.654mil,2895.554mil) on Top Layer And Track (1865.002mil,2778.034mil)(1865.002mil,2780.002mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J6-1(1921.654mil,2964.45mil) on Top Layer And Pad J7-2(2064.999mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net Relay_Sig_HC_1 Between Pad X1-A19(504.33mil,2837.402mil) on Multi-Layer And Pad J7-1(2064.999mil,2895.552mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net Relay_Sig_HC_1 Between Pad J7-1(2064.999mil,2895.552mil) on Top Layer And Track (2086.654mil,2645.554mil)(2086.654mil,2767.796mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J7-2(2064.999mil,2964.45mil) on Top Layer And Pad J9-1(2271.653mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad T1-3(2056.437mil,397.993mil) on Top Layer And Pad J7-2(2064.999mil,2964.45mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD1_U_Relay3_1 Between Pad J8-2(2161.654mil,2895.552mil) on Top Layer And Pad J9-2(2271.653mil,2895.552mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD1_U_Relay3_1 Between Pad J8-2(2161.654mil,2895.552mil) on Top Layer And Track (2215.002mil,2778.034mil)(2215.002mil,2780.002mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net HC_3 Between Pad X1-A9(720.866mil,2069.684mil) on Multi-Layer And Pad K1-NO(1510.67mil,2291.224mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net HC_2 Between Pad X1-A8(720.866mil,2187.794mil) on Multi-Layer And Pad K2-NO(1860.67mil,2291.224mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net HC_1 Between Pad X1-A7(720.866mil,2305.906mil) on Multi-Layer And Pad K3-NO(2210.67mil,2291.222mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net LC_8 Between Pad X1-A33(405.906mil,2187.794mil) on Multi-Layer And Pad K4-NO(2560.67mil,2291.222mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad LED10-1(4130mil,4835.276mil) on Top Layer And Pad LED11-1(4470mil,4835.276mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad LED9-1(3790mil,4835.276mil) on Top Layer And Pad LED10-1(4130mil,4835.276mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LED_IND_U_Blown_Fuse_LED8 Between Via (4129.016mil,4629.016mil) from Top Layer to Bottom Layer And Pad LED10-2(4130mil,4744.726mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad LED1-1(1410mil,4845.276mil) on Top Layer And Pad LED2-1(1750mil,4845.276mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad LED11-1(4470mil,4835.276mil) on Top Layer And Pad LED12-1(4810mil,4835.276mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LED_IND_U_Blown_Fuse_LED9 Between Via (4469.016mil,4629.016mil) from Top Layer to Bottom Layer And Pad LED11-2(4470mil,4744.726mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LED_IND_U_Blown_Fuse_LED10 Between Via (4809.016mil,4629.016mil) from Top Layer to Bottom Layer And Pad LED12-2(4810mil,4744.726mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad LED2-1(1750mil,4845.276mil) on Top Layer And Pad LED3-1(2090mil,4845.276mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad LED3-1(2090mil,4845.276mil) on Top Layer And Pad LED4-1(2431.578mil,4840.55mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LED_IND_U_Blown_Fuse_LED3 Between Via (2089.016mil,4639.016mil) from Top Layer to Bottom Layer And Pad LED3-2(2090mil,4754.724mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad LED4-1(2431.578mil,4840.55mil) on Top Layer And Pad LED5-1(2770mil,4835.276mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LED_IND_U_Blown_Fuse_LED11 Between Via (2430.594mil,4634.292mil) from Top Layer to Bottom Layer And Pad LED4-2(2431.578mil,4750mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad LED5-1(2770mil,4835.276mil) on Top Layer And Pad LED7-1(3110mil,4835.276mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LED_IND_U_Blown_Fuse_LED4 Between Via (2769.016mil,4629.016mil) from Top Layer to Bottom Layer And Pad LED5-2(2770mil,4744.724mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad LED7-1(3110mil,4835.276mil) on Top Layer And Pad LED8-1(3450mil,4835.276mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LED_IND_U_Blown_Fuse_LED5 Between Via (3109.016mil,4629.016mil) from Top Layer to Bottom Layer And Pad LED7-2(3110mil,4744.724mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12 V_U_Blown_Fuse_LED1 Between Pad LED8-1(3450mil,4835.276mil) on Top Layer And Pad LED9-1(3790mil,4835.276mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LED_IND_U_Blown_Fuse_LED6 Between Via (3449.016mil,4629.016mil) from Top Layer to Bottom Layer And Pad LED8-2(3450mil,4744.726mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net LED_IND_U_Blown_Fuse_LED7 Between Via (3789.016mil,4629.016mil) from Top Layer to Bottom Layer And Pad LED9-2(3790mil,4744.726mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED4_2 Between Track (2769.016mil,4360mil)(2769.016mil,4455.198mil) on Bottom Layer And Pad R10-1(2770mil,4458.15mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R10-2(2770mil,4527.048mil) on Top Layer And Pad R11-2(2849.29mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R9-2(2510.868mil,4532.324mil) on Top Layer And Pad R10-2(2770mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R11-2(2849.29mil,4527.048mil) on Top Layer And Pad R13-2(3110mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R1-2(1410.002mil,4537.048mil) on Top Layer And Pad R2-2(1489.292mil,4537.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED5_2 Between Track (3109.016mil,4360mil)(3109.016mil,4455.198mil) on Bottom Layer And Pad R13-1(3110mil,4458.15mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R13-2(3110mil,4527.048mil) on Top Layer And Pad R14-2(3189.292mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R14-2(3189.292mil,4527.048mil) on Top Layer And Pad R15-2(3450.002mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED6_2 Between Pad T6-1(3449.016mil,4455.198mil) on Bottom Layer And Pad R15-1(3450.002mil,4458.15mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R15-2(3450.002mil,4527.048mil) on Top Layer And Pad R16-2(3529.292mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R16-2(3529.292mil,4527.048mil) on Top Layer And Pad R17-2(3790.002mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED7_2 Between Pad T5-1(3789.016mil,4455.198mil) on Bottom Layer And Pad R17-1(3790.002mil,4458.15mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R17-2(3790.002mil,4527.048mil) on Top Layer And Pad R18-2(3869.292mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R18-2(3869.292mil,4527.048mil) on Top Layer And Pad R19-2(4130.002mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED8_2 Between Pad T4-1(4129.016mil,4455.198mil) on Bottom Layer And Pad R19-1(4130.002mil,4458.15mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R19-2(4130.002mil,4527.048mil) on Top Layer And Pad R20-2(4209.292mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R20-2(4209.292mil,4527.048mil) on Top Layer And Pad R21-2(4470.002mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED9_2 Between Pad T3-1(4469.016mil,4455.198mil) on Bottom Layer And Pad R21-1(4470.002mil,4458.15mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R21-2(4470.002mil,4527.048mil) on Top Layer And Pad R22-2(4549.292mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R2-2(1489.292mil,4537.048mil) on Top Layer And Pad R3-2(1750.002mil,4537.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R22-2(4549.292mil,4527.048mil) on Top Layer And Pad R23-2(4810.002mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED10_2 Between Pad T2-1(4809.016mil,4455.198mil) on Bottom Layer And Pad R23-1(4810.002mil,4458.15mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R23-2(4810.002mil,4527.048mil) on Top Layer And Pad R24-2(4889.292mil,4527.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED2_2 Between Pad T11-1(1749.016mil,4465.198mil) on Bottom Layer And Pad R3-1(1750.002mil,4468.15mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R3-2(1750.002mil,4537.048mil) on Top Layer And Pad R4-2(1829.292mil,4537.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R4-2(1829.292mil,4537.048mil) on Top Layer And Pad R5-2(2090.002mil,4537.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED3_2 Between Track (2089.016mil,4370mil)(2089.016mil,4465.198mil) on Bottom Layer And Pad R5-1(2090.002mil,4468.15mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R5-2(2090.002mil,4537.048mil) on Top Layer And Pad R6-2(2169.29mil,4537.048mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R6-2(2169.29mil,4537.048mil) on Top Layer And Pad R8-2(2431.578mil,4532.324mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad T1-3(2056.437mil,397.993mil) on Top Layer And Pad R7-1(2210mil,280mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetD3_U_Blown_Fuse_LED11_2 Between Track (2430.594mil,4365.276mil)(2430.594mil,4460.474mil) on Bottom Layer And Pad R8-1(2431.578mil,4463.426mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R8-2(2431.578mil,4532.324mil) on Top Layer And Pad R9-2(2510.868mil,4532.324mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad T1-1(1956.437mil,397.993mil) on Top Layer And Pad T1-2(2006.437mil,397.993mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-B19(504.33mil,849.212mil) on Multi-Layer And Pad T1-1(1956.437mil,397.993mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad T1-2(2006.437mil,397.993mil) on Top Layer And Pad T1-3(2056.437mil,397.993mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net HC_2 Between Pad X1-A17(622.44mil,2128.74mil) on Multi-Layer And Pad X1-A8(720.866mil,2187.794mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net Relay_Sig_HC_3 Between Pad X1-A20(504.33mil,2719.29mil) on Multi-Layer And Track (1386.654mil,2645.554mil)(1386.654mil,2767.796mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_IN Between Pad X1-B12(622.44mil,967.322mil) on Multi-Layer And Pad X1-B11(622.44mil,1085.432mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_IN Between Pad X1-B11(622.44mil,1085.432mil) on Multi-Layer And Pad X1-B5(720.866mil,1026.378mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_IN Between Pad X1-B13(622.44mil,849.212mil) on Multi-Layer And Pad X1-B12(622.44mil,967.322mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-B18(504.33mil,967.322mil) on Multi-Layer And Pad X1-B17(504.33mil,1085.432mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-B19(504.33mil,849.212mil) on Multi-Layer And Pad X1-B18(504.33mil,967.322mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-B26(405.906mil,790.158mil) on Multi-Layer And Pad X1-B19(504.33mil,849.212mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-B24(405.906mil,1026.378mil) on Multi-Layer And Pad X1-B23(405.906mil,1144.488mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-B25(405.906mil,908.268mil) on Multi-Layer And Pad X1-B24(405.906mil,1026.378mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad X1-B26(405.906mil,790.158mil) on Multi-Layer And Pad X1-B25(405.906mil,908.268mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_IN Between Pad X1-B5(720.866mil,1026.378mil) on Multi-Layer And Pad X1-B4(720.866mil,1144.488mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_IN Between Pad X1-B6(720.866mil,908.268mil) on Multi-Layer And Pad X1-B5(720.866mil,1026.378mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 12V_IN Between Pad X1-B7(720.866mil,790.158mil) on Multi-Layer And Pad X1-B6(720.866mil,908.268mil) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net NetR2_U_Blown_Fuse_LED2_1 Between Track (1829.292mil,4446.736mil)(1840mil,4457.444mil) on Top Layer And Track (1827.756mil,4502.6mil)(1840mil,4490.356mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetR2_U_Blown_Fuse_LED3_1 Between Track (2169.292mil,4446.736mil)(2180mil,4457.444mil) on Top Layer And Track (2167.756mil,4502.6mil)(2180mil,4490.356mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetR2_U_Blown_Fuse_LED11_1 Between Track (2510.87mil,4442.012mil)(2521.578mil,4452.72mil) on Top Layer And Track (2509.334mil,4497.876mil)(2521.578mil,4485.632mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetR2_U_Blown_Fuse_LED4_1 Between Track (2849.292mil,4436.736mil)(2860mil,4447.444mil) on Top Layer And Track (2847.756mil,4492.6mil)(2860mil,4480.356mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetR2_U_Blown_Fuse_LED5_1 Between Track (3189.292mil,4436.736mil)(3200mil,4447.444mil) on Top Layer And Track (3187.756mil,4492.6mil)(3200mil,4480.356mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetR2_U_Blown_Fuse_LED6_1 Between Track (3529.292mil,4436.736mil)(3540mil,4447.444mil) on Top Layer And Track (3527.756mil,4492.6mil)(3540mil,4480.356mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetR2_U_Blown_Fuse_LED7_1 Between Track (3869.292mil,4436.736mil)(3880mil,4447.444mil) on Top Layer And Track (3867.756mil,4492.6mil)(3880mil,4480.356mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetR2_U_Blown_Fuse_LED8_1 Between Track (4209.292mil,4436.736mil)(4220mil,4447.444mil) on Top Layer And Track (4207.756mil,4492.6mil)(4220mil,4480.356mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetR2_U_Blown_Fuse_LED9_1 Between Track (4549.292mil,4436.736mil)(4560mil,4447.444mil) on Top Layer And Track (4547.756mil,4492.6mil)(4560mil,4480.356mil) on Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net NetR2_U_Blown_Fuse_LED10_1 Between Track (4889.292mil,4436.736mil)(4900mil,4447.444mil) on Top Layer And Track (4887.756mil,4492.6mil)(4900mil,4480.356mil) on Bottom Layer 
+Rule Violations :156
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=28mil) (MaxHoleWidth=28mil) (PreferredHoleWidth=28mil) (MinWidth=50mil) (MaxWidth=50mil) (PreferedWidth=50mil) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=10mil) (Max=10mil) (Prefered=10mil)  and Width Constraints (Min=15mil) (Max=15mil) (Prefered=15mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint: (129.921mil > 100mil) Pad X1-CH(150mil,1784.252mil) on Multi-Layer Actual Hole Size = 129.921mil
+   Violation between Hole Size Constraint: (129.921mil > 100mil) Pad X1-LH(150mil,3300mil) on Multi-Layer Actual Hole Size = 129.921mil
+   Violation between Hole Size Constraint: (129.921mil > 100mil) Pad X1-RH(150mil,504.724mil) on Multi-Layer Actual Hole Size = 129.921mil
+Rule Violations :3
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Track (2279.999mil,518.07mil)(2279.999mil,609.999mil) on Top Layer 
+   Violation between Net Antennae: Track (3006.437mil,501.418mil)(3006.437mil,630mil) on Top Layer 
+   Violation between Net Antennae: Via (1829.292mil,4370mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (2089.016mil,4639.016mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (2169.292mil,4370mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (2430.594mil,4634.292mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (2510.87mil,4365.276mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (2769.016mil,4629.016mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (2849.292mil,4360mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (3109.016mil,4629.016mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (3189.292mil,4360mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (3449.016mil,4629.016mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (3529.292mil,4360mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (3789.016mil,4629.016mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (3869.292mil,4360mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (4129.016mil,4629.016mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (4209.292mil,4360mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (4469.016mil,4629.016mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (4549.292mil,4360mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (4809.016mil,4629.016mil) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (4889.292mil,4360mil) from Top Layer to Bottom Layer 
+Rule Violations :21
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Text "T2" (5991mil,4602mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Text "T3" (5601mil,4602mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Text "T4" (5261mil,4602mil) on Bottom Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Text "X1" (-608mil,3473mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (7.205mil < 15mil) Between Board Edge And Track (12.204mil,3437.794mil)(287.796mil,3437.794mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (7.205mil < 15mil) Between Board Edge And Track (12.204mil,366.928mil)(12.204mil,3437.794mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (7.205mil < 15mil) Between Board Edge And Track (12.204mil,366.928mil)(287.796mil,366.928mil) on Top Overlay 
+Rule Violations :7
+
+Processing Rule : Room U_Relay1 (Bounding Region = (1326.654mil, 2005mil, 1611.654mil, 3005mil) (InComponentClass('U_Relay1'))
+   Violation between Room Definition: Between Component K1-ACTP112 (1536.653mil,2055.002mil) on Top Layer And Room U_Relay1 (Bounding Region = (1326.654mil, 2005mil, 1611.654mil, 3005mil) (InComponentClass('U_Relay1')) 
+   Violation between Room Definition: Between Room U_Relay1 (Bounding Region = (1326.654mil, 2005mil, 1611.654mil, 3005mil) (InComponentClass('U_Relay1')) And SMT Small Component J1-Resistor 1.0 0805 1/10W 10% (1364.999mil,2930.001mil) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Room U_Blown_Fuse_LED2 (Bounding Region = (1670mil, 4060mil, 1940mil, 4900mil) (InComponentClass('U_Blown_Fuse_LED2'))
+   Violation between Room Definition: Between Component F4-Fuse (1815.225mil,1629.999mil) on Top Layer And Room U_Blown_Fuse_LED2 (Bounding Region = (1670mil, 4060mil, 1940mil, 4900mil) (InComponentClass('U_Blown_Fuse_LED2')) 
+Rule Violations :1
+
+Processing Rule : Room U_RVP_OVP_HC (Bounding Region = (1841.083mil, 79.764mil, 3287.737mil, 729.764mil) (InComponentClass('U_RVP_OVP_HC'))
+   Violation between Room Definition: Between Room U_RVP_OVP_HC (Bounding Region = (1841.083mil, 79.764mil, 3287.737mil, 729.764mil) (InComponentClass('U_RVP_OVP_HC')) And SMT Small Component D8-1N5819 (2431.577mil,4185.275mil) on Top Layer 
+   Violation between Room Definition: Between Room U_RVP_OVP_HC (Bounding Region = (1841.083mil, 79.764mil, 3287.737mil, 729.764mil) (InComponentClass('U_RVP_OVP_HC')) And SMT Small Component LED2-Red LED 0805 (1750mil,4800.001mil) on Top Layer 
+   Violation between Room Definition: Between Room U_RVP_OVP_HC (Bounding Region = (1841.083mil, 79.764mil, 3287.737mil, 729.764mil) (InComponentClass('U_RVP_OVP_HC')) And SMT Small Component PWR_IN1-RCU-0C (1032.737mil,183.543mil) on Top Layer 
+Rule Violations :3
+
+Processing Rule : Room U_Blown_Fuse_LED11 (Bounding Region = (2351.578mil, 4055.276mil, 2621.578mil, 4895.276mil) (InComponentClass('U_Blown_Fuse_LED11'))
+   Violation between Room Definition: Between Component F6-Fuse (2498.508mil,1629.999mil) on Top Layer And Room U_Blown_Fuse_LED11 (Bounding Region = (2351.578mil, 4055.276mil, 2621.578mil, 4895.276mil) (InComponentClass('U_Blown_Fuse_LED11')) 
+Rule Violations :1
+
+Processing Rule : Room U_Blown_Fuse_LED1 (Bounding Region = (1330mil, 4060mil, 1600mil, 4900mil) (InComponentClass('U_Blown_Fuse_LED1'))
+   Violation between Room Definition: Between Component F3-Fuse (1473.583mil,1629.999mil) on Top Layer And Room U_Blown_Fuse_LED1 (Bounding Region = (1330mil, 4060mil, 1600mil, 4900mil) (InComponentClass('U_Blown_Fuse_LED1')) 
+Rule Violations :1
+
+Processing Rule : Room U_Relay4 (Bounding Region = (2376.654mil, 2005mil, 2661.654mil, 3005mil) (InComponentClass('U_Relay4'))
+   Violation between Room Definition: Between Component K4-ACTP112 (2586.653mil,2055.001mil) on Top Layer And Room U_Relay4 (Bounding Region = (2376.654mil, 2005mil, 2661.654mil, 3005mil) (InComponentClass('U_Relay4')) 
+   Violation between Room Definition: Between Room U_Relay4 (Bounding Region = (2376.654mil, 2005mil, 2661.654mil, 3005mil) (InComponentClass('U_Relay4')) And SMT Small Component J10-Resistor 1.0 0805 1/10W 10% (2414.999mil,2930.001mil) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Room U_Relay3 (Bounding Region = (2026.654mil, 2005mil, 2311.654mil, 3005mil) (InComponentClass('U_Relay3'))
+   Violation between Room Definition: Between Component K3-ACTP112 (2236.655mil,2055.002mil) on Top Layer And Room U_Relay3 (Bounding Region = (2026.654mil, 2005mil, 2311.654mil, 3005mil) (InComponentClass('U_Relay3')) 
+   Violation between Room Definition: Between Room U_Relay3 (Bounding Region = (2026.654mil, 2005mil, 2311.654mil, 3005mil) (InComponentClass('U_Relay3')) And SMT Small Component J7-Resistor 1.0 0805 1/10W 10% (2065.001mil,2930.002mil) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Room PDM (Bounding Region = (845mil, 565mil, 1620mil, 1240mil) (InComponentClass('PDM'))
+Rule Violations :0
+
+Processing Rule : Room U_Relay2 (Bounding Region = (1676.654mil, 2005mil, 1961.654mil, 3005mil) (InComponentClass('U_Relay2'))
+   Violation between Room Definition: Between Component K2-ACTP112 (1886.654mil,2055.002mil) on Top Layer And Room U_Relay2 (Bounding Region = (1676.654mil, 2005mil, 1961.654mil, 3005mil) (InComponentClass('U_Relay2')) 
+   Violation between Room Definition: Between Room U_Relay2 (Bounding Region = (1676.654mil, 2005mil, 1961.654mil, 3005mil) (InComponentClass('U_Relay2')) And SMT Small Component J4-Resistor 1.0 0805 1/10W 10% (1714.999mil,2930.002mil) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Room U_Blown_Fuse_LED3 (Bounding Region = (2010mil, 4060mil, 2280mil, 4900mil) (InComponentClass('U_Blown_Fuse_LED3'))
+   Violation between Room Definition: Between Component F5-Fuse (2156.867mil,1629.999mil) on Top Layer And Room U_Blown_Fuse_LED3 (Bounding Region = (2010mil, 4060mil, 2280mil, 4900mil) (InComponentClass('U_Blown_Fuse_LED3')) 
+Rule Violations :1
+
+Processing Rule : Room U_Blown_Fuse_LED7 (Bounding Region = (3710mil, 4050mil, 3980mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED7'))
+   Violation between Room Definition: Between Component F10-Fuse (3865.075mil,1630mil) on Top Layer And Room U_Blown_Fuse_LED7 (Bounding Region = (3710mil, 4050mil, 3980mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED7')) 
+Rule Violations :1
+
+Processing Rule : Room U_Blown_Fuse_LED8 (Bounding Region = (4050mil, 4050mil, 4320mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED8'))
+   Violation between Room Definition: Between Component F11-Fuse (4206.716mil,1630mil) on Top Layer And Room U_Blown_Fuse_LED8 (Bounding Region = (4050mil, 4050mil, 4320mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED8')) 
+   Violation between Room Definition: Between Room U_Blown_Fuse_LED8 (Bounding Region = (4050mil, 4050mil, 4320mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED8')) And SMT SIP Component T1-PSMN2R2-25YLC 25V Logic Level MOSFET (2031.438mil,504.293mil) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Room U_Blown_Fuse_LED5 (Bounding Region = (3030mil, 4050mil, 3300mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED5'))
+   Violation between Room Definition: Between Component F8-Fuse (3181.791mil,1629.999mil) on Top Layer And Room U_Blown_Fuse_LED5 (Bounding Region = (3030mil, 4050mil, 3300mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED5')) 
+Rule Violations :1
+
+Processing Rule : Room U_Blown_Fuse_LED6 (Bounding Region = (3370mil, 4050mil, 3640mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED6'))
+   Violation between Room Definition: Between Component F9-Fuse (3523.433mil,1630mil) on Top Layer And Room U_Blown_Fuse_LED6 (Bounding Region = (3370mil, 4050mil, 3640mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED6')) 
+Rule Violations :1
+
+Processing Rule : Room U_Blown_Fuse_LED9 (Bounding Region = (4390mil, 4050mil, 4660mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED9'))
+   Violation between Room Definition: Between Component F12-Fuse (4548.358mil,1630mil) on Top Layer And Room U_Blown_Fuse_LED9 (Bounding Region = (4390mil, 4050mil, 4660mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED9')) 
+Rule Violations :1
+
+Processing Rule : Room U_Superseal (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('U_Superseal'))
+   Violation between Room Definition: Between Component X1-3-6437285-2 (150mil,3300mil) on Top Layer And Room U_Superseal (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('U_Superseal')) 
+Rule Violations :1
+
+Processing Rule : Room U_Blown_Fuse_LED10 (Bounding Region = (4730mil, 4050mil, 5000mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED10'))
+   Violation between Room Definition: Between Component F13-Fuse (4889.999mil,1630mil) on Top Layer And Room U_Blown_Fuse_LED10 (Bounding Region = (4730mil, 4050mil, 5000mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED10')) 
+Rule Violations :1
+
+Processing Rule : Room U_Blown_Fuse_LED4 (Bounding Region = (2690mil, 4050mil, 2960mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED4'))
+   Violation between Room Definition: Between Component F7-Fuse (2840.15mil,1629.999mil) on Top Layer And Room U_Blown_Fuse_LED4 (Bounding Region = (2690mil, 4050mil, 2960mil, 4890mil) (InComponentClass('U_Blown_Fuse_LED4')) 
+Rule Violations :1
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 10mil, Vertical Gap = 10mil ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+   Violation between Height Constraint: Component X1-3-6437285-2 (150mil,3300mil) on Top Layer Actual Height = 1108.268mil
+Rule Violations :1
+
+
+Violations Detected : 212
+Waived Violations : 0
+Time Elapsed        : 00:00:01
