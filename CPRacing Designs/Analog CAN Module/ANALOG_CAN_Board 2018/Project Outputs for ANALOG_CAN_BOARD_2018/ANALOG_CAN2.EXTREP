@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ANALOG_CAN2.GBR   1/12/2019  3:07:48 PM
+Gerber File Extension Report For: ANALOG_CAN2.GBR   1/26/2019  7:59:30 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -16,6 +16,7 @@ Layer Extension     Layer Description
 .gbr                Top Overlay                             
 .gbr                Top Paste                               
 .gbr                Top Solder                              
+.gbr                Keep-Out Layer                          
 .gbr                Profile                                 
 .gbr                Non-plated through-hole drill file      
 .gbr                Plated through-hole drill file          

@@ -11,6 +11,7 @@ From  : Project [ANALOG_CAN_BOARD_2018.PrjPCB]
    Generated File[ANALOG_CAN2_Legend_Top.gbr]
    Generated File[ANALOG_CAN2_Paste_Top.gbr]
    Generated File[ANALOG_CAN2_Soldermask_Top.gbr]
+   Generated File[ANALOG_CAN2_Keep-out.gbr]
    Generated File[ANALOG_CAN2_Profile.gbr]
    Generated File[ANALOG_CAN2_NPTH_Drill.gbr]
    Generated File[ANALOG_CAN2_PTH_Drill.gbr]
@@ -21,7 +22,7 @@ From  : Project [ANALOG_CAN_BOARD_2018.PrjPCB]
    Generated File[ANALOG_CAN2.REP]
 
 
-Files Generated   : 18
+Files Generated   : 19
 Documents Printed : 0
 
-Finished Output Generation At 3:07:50 PM On 1/12/2019
+Finished Output Generation At 7:59:32 PM On 1/26/2019

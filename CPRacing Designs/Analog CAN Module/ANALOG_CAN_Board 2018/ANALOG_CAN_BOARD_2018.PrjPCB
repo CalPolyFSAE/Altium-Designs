@@ -270,74 +270,78 @@ DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Drillmap_1.gb
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Legend_Bot.gbr
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Legend_Top.gbr
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_NPTH_Drill.gbr
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Pads_Bot.gbr
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_NPTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Pads_Top.gbr
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Pads_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Paste_Bot.gbr
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Pads_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Paste_Top.gbr
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Profile.gbr
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_PTH_Drill.gbr
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Profile.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_PTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Soldermask_Top.gbr
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=ANALOG_CAN2 1-9-2019 1-58-19 PM.WAS
+DocumentPath=Project Outputs for ANALOG_CAN_BOARD_2018\ANALOG_CAN2_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=ANALOG_CAN2 11-23-2018 7-41-55 PM.WAS
+DocumentPath=ANALOG_CAN2 1-9-2019 1-58-19 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=ANALOG_CAN2 11-28-2018 1-31-10 AM.WAS
+DocumentPath=ANALOG_CAN2 11-23-2018 7-41-55 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=ANALOG_CAN2 11-28-2018 12-52-58 AM.WAS
+DocumentPath=ANALOG_CAN2 11-28-2018 1-31-10 AM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=ANALOG_CAN2 12-21-2018 2-21-45 PM.WAS
+DocumentPath=ANALOG_CAN2 11-28-2018 12-52-58 AM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=ANALOG_CAN2 12-21-2018 5-02-54 PM.WAS
+DocumentPath=ANALOG_CAN2 12-21-2018 2-21-45 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument25]
+DocumentPath=ANALOG_CAN2 12-21-2018 5-02-54 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument26]
 DocumentPath=ANALOG_CAN2 12-22-2018 12-21-01 AM.WAS
 DItemRevisionGUID=
 
@@ -588,7 +592,7 @@ OutputDefault5=0
 Configuration5_Name1=ForceUpdateSettings
 Configuration5_Item1=False
 Configuration5_Name2=OutputConfigurationParameter1
-Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Imperial|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_HighLayer=Top Layer|PlotDrillDrawingPair0_LowLayer=Bottom Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_HighLayer=Top Layer|PlotDrillGuidePair0_LowLayer=Bottom Layer|PlotDrillGuidePairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16973831~1,16973849~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16973834~1,16973848~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False
+Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Imperial|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_HighLayer=Top Layer|PlotDrillDrawingPair0_LowLayer=Bottom Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_HighLayer=Top Layer|PlotDrillGuidePair0_LowLayer=Bottom Layer|PlotDrillGuidePairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16973831~1,16973849~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16973834~1,16973848~1,16973837~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
