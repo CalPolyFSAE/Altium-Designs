@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\KevinMBP\Documents\GitHub\Altium-Designs\CPRacing Designs\PDM-C\PDM-C\PDM-C_Board.PcbDoc
-Date     : 2/4/2019
-Time     : 9:12:19 PM
+PCB File : C:\Users\Josh\Documents\GitHub\Altium-Designs\CPRacing Designs\PDM-C\PDM-C\PDM-C_Board.PcbDoc
+Date     : 2/9/2019
+Time     : 11:46:11 AM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -30,7 +30,10 @@ Rule Violations :0
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=1mil) (Max=150mil) (All)
+Processing Rule : Minimum Annular Ring (Minimum=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=10mil) (Max=150mil) (All)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
@@ -43,25 +46,18 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-Rule Violations :0
+   Violation between Board Outline Clearance(Outline Edge): (7.205mil < 15mil) Between Board Edge And Track (12.205mil,3637.795mil)(287.795mil,3637.795mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (7.205mil < 15mil) Between Board Edge And Track (12.205mil,566.929mil)(12.205mil,3637.795mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (7.205mil < 15mil) Between Board Edge And Track (12.205mil,566.929mil)(287.795mil,566.929mil) on Top Overlay 
+Rule Violations :3
 
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 10mil, Vertical Gap = 10mil ) (All),(All) 
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Processing Rule : Height Constraint (Min=0mil) (Max=10000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
-Waived Violations Of Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Waived Violation between Board Outline Clearance(Outline Edge): (7.205mil < 15mil) Between Board Edge And Track (12.205mil,3637.795mil)(287.795mil,3637.795mil) on Top Overlay Waived by Kevin Jung at 2/4/2019 8:47:33 PMConnector is of known location
-   Waived Violation between Board Outline Clearance(Outline Edge): (7.205mil < 15mil) Between Board Edge And Track (12.205mil,566.929mil)(12.205mil,3637.795mil) on Top Overlay Waived by Kevin Jung at 2/4/2019 8:47:33 PMConnector is of known location
-   Waived Violation between Board Outline Clearance(Outline Edge): (7.205mil < 15mil) Between Board Edge And Track (12.205mil,566.929mil)(287.795mil,566.929mil) on Top Overlay Waived by Kevin Jung at 2/4/2019 8:47:33 PMConnector is of known location
-Waived Violations :3
 
-Waived Violations Of Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
-   Waived Violation between Height Constraint: Component X1-3-6437285-2 (150mil,3500mil) on Top Layer Actual Height = 1108.268milWaived by Kevin Jung at 2/4/2019 8:47:45 PMConnector is of known size
-Waived Violations :1
-
-
-Violations Detected : 0
-Waived Violations : 4
-Time Elapsed        : 00:00:02
+Violations Detected : 3
+Waived Violations : 0
+Time Elapsed        : 00:00:01
