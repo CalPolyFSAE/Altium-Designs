@@ -1,9 +1,13 @@
-Output: Bill of Materials
-Type  : BOM
+Output: Gerber Files
+Type  : Gerber
 From  : Variant [[No Variations]] of Project [SG_CAN_Board_2019.PrjPCB]
+   Generated File[SG_CAN_Board.GTP]
+   Generated File[SG_CAN_Board.RUL]
+   Generated File[SG_CAN_Board.EXTREP]
+   Generated File[SG_CAN_Board.REP]
 
 
-Files Generated   : 0
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 3:20:07 PM On 1/12/2019
+Finished Output Generation At 1:30:58 PM On 2/8/2019

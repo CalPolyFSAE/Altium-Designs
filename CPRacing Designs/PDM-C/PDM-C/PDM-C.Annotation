@@ -1,0 +1,21 @@
+[DesignatorManager]
+LogicalDesignator0=R1
+LogicalPartID0=1
+DocumentName0=Blown_Fuse_LED.SchDoc
+ChannelName0=U_Blown_Fuse_LED1
+UniqueID0=\XYYCDQMV\EYAKAYHQ\QGCKLIZJ
+PhysicalDesignator0=R1
+PhysicalDesignatorLocked0=1
+LogicalDesignator1=R1
+LogicalPartID1=1
+DocumentName1=Blown_Fuse_LED.SchDoc
+ChannelName1=U_Blown_Fuse_LED2
+UniqueID1=\XYYCDQMV\TJPCKRYC\QGCKLIZJ
+PhysicalDesignator1=R1_U_Blown_Fuse_LED2
+PhysicalDesignatorLocked1=1
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+
+
