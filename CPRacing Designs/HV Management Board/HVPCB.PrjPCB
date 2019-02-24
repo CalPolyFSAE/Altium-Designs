@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LKSPXUVX
 
 [Document3]
-DocumentPath=Power.SchDoc
+DocumentPath=Power_Rev2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -89,7 +89,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KJQXFYFV
 
 [Document4]
-DocumentPath=HVSchematic.SchDoc
+DocumentPath=HVSchematic_Rev2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LGRLRQDL
 
 [Document5]
-DocumentPath=Isolation.SchDoc
+DocumentPath=Isolation_Rev2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -337,7 +337,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OrCADPS_17.2
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
