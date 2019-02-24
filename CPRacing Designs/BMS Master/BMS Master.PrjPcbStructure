@@ -1,2 +1,5 @@
 Record=TopLevelDocument|FileName=BMS Master.SchDoc
+Record=SheetSymbol|SourceDocument=BMS Master.SchDoc|Designator=U_CAN_Tranceiver|SchDesignator=U_CAN_Tranceiver|FileName=CAN_Tranceiver.SchDoc|SymbolType=Normal|RawFileName=CAN_Tranceiver.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=BMS Master.SchDoc|Designator=U_MCU_MKE185F512VLH16|SchDesignator=U_MCU_MKE185F512VLH16|FileName=MCU_MKE185F512VLH16.SchDoc|SymbolType=Normal|RawFileName=MCU_MKE185F512VLH16.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=BMS Master.SchDoc|Designator=U_RVP_OVP_LC|SchDesignator=U_RVP_OVP_LC|FileName=RVP_OVP_LC.SchDoc|SymbolType=Normal|RawFileName=RVP_OVP_LC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=BMS Master.SchDoc|Designator=U_USB|SchDesignator=U_USB|FileName=USB.SchDoc|SymbolType=Normal|RawFileName=USB.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
