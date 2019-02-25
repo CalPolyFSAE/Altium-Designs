@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Josh\Documents\GitHub\Altium-Designs\CPRacing Designs\PDM-C\PDM-C\PDM-C_Board.PcbDoc
-Date     : 2/9/2019
-Time     : 11:46:11 AM
+PCB File : C:\Users\KevinMBP\Documents\GitHub\Altium-Designs\CPRacing Designs\PDM-C\PDM-C\PDM-C_Board.PcbDoc
+Date     : 2/11/2019
+Time     : 8:39:44 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -15,7 +15,7 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=8mil) (Max=50mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=8mil) (Max=100mil) (Preferred=10mil) (All)
 Rule Violations :0
 
 Processing Rule : Routing Layers(All)
