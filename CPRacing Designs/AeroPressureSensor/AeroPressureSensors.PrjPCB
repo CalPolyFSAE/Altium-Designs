@@ -190,6 +190,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UMYIRMAW
 
+[Document10]
+DocumentPath=3.3-5 and 5-3.3 Level Shifters.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KPWGAPDF
+
+[Document11]
+DocumentPath=3.3V CAN_Tranceiver.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WIBBYDMC
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for AeroPressureSensors\Design Rule Check - Pressure_Tap_Board.html
 DItemRevisionGUID=
