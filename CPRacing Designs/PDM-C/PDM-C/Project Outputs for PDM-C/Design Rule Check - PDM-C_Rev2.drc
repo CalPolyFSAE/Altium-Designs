@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\KevinMBP\Documents\GitHub\Altium-Designs\CPRacing Designs\PDM-C\PDM-C\PDM-C_Rev2.PcbDoc
-Date     : 3/2/2019
-Time     : 7:47:28 PM
+PCB File : C:\Users\Josh\Documents\GitHub\Altium-Designs\CPRacing Designs\PDM-C\PDM-C\PDM-C_Rev2.PcbDoc
+Date     : 3/4/2019
+Time     : 11:05:02 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -60,4 +60,4 @@ Rule Violations :0
 
 Violations Detected : 3
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00
