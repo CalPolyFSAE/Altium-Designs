@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=Sheet1.SchDoc
+Record=SheetSymbol|SourceDocument=Sheet1.SchDoc|Designator=CAN|SchDesignator=CAN|FileName=CAN_Tranceiver.SchDoc|SymbolType=Normal|RawFileName=CAN_Tranceiver.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Sheet1.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=MCU_MKE185F512VLH16.SchDoc|SymbolType=Normal|RawFileName=MCU_MKE185F512VLH16.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
