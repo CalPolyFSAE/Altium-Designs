@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ETFTRLZM
 
 [Document5]
-DocumentPath=Sheet1.SchDoc
+DocumentPath=IMU_BLOCK.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LXIKIGFK
 
 [Document10]
-DocumentPath=Sheet2.SchDoc
+DocumentPath=IC_BNO080.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -206,6 +206,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LDDFESWY
+
+[Document11]
+DocumentPath=3V3_LDO.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YRQUOMES
 
 [Configuration1]
 Name=Sources
