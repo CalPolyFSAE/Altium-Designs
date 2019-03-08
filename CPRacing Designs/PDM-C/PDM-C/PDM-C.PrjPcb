@@ -225,254 +225,106 @@ GenerateClassCluster=0
 DocumentUniqueId=FBKOSKIP
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for PDM-C\Design Rule Check - PDM-C_5vRelay_Board.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for PDM-C\Design Rule Check - PDM-C_Board.html
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs for PDM-C\Design Rule Check - PDM-C_Rev2.html
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument2]
 DocumentPath=PDM-C_5vRelay_Board 2-21-2019 9-57-35 PM.WAS
 DItemRevisionGUID=
 
-[GeneratedDocument5]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board.REP
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Drawing_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Drillmap_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Pads_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Pads_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for PDM-C\PDM-C_5vRelay_Board_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument23]
+[GeneratedDocument3]
 DocumentPath=PDM-C_Board 2-2-2019 2-29-14 PM.WAS
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument4]
 DocumentPath=PDM-C_Board 2-2-2019 3-08-10 PM.WAS
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument5]
 DocumentPath=PDM-C_Board 2-11-2019 8-36-03 PM.WAS
 DItemRevisionGUID=
 
-[GeneratedDocument26]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board.REP
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Drawing_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Drillmap_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Pads_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Pads_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for PDM-C\PDM-C_Board_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument44]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument45]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2.REP
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument47]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument48]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument49]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Drawing_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument50]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Drillmap_1.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument51]
+[GeneratedDocument13]
+DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Keep-out.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Legend_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument52]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Legend_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument53]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_NPTH_Drill.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument54]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Pads_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument55]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Pads_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument56]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Paste_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument57]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Paste_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument58]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Profile.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument59]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_PTH_Drill.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument60]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Soldermask_Bot.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument61]
+[GeneratedDocument24]
 DocumentPath=Project Outputs for PDM-C\PDM-C_Rev2_Soldermask_Top.gbr
 DItemRevisionGUID=
 
-[GeneratedDocument62]
+[GeneratedDocument25]
 DocumentPath=PDM-C_Rev2 2-28-2019 10-10-27 PM.WAS
 DItemRevisionGUID=
 
-[GeneratedDocument63]
+[GeneratedDocument26]
 DocumentPath=PDM-C_Rev2 3-2-2019 7-26-21 PM.WAS
 DItemRevisionGUID=
 
@@ -595,7 +447,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother MFC-J995DW Printer
+TargetPrinter=HP DeskJet 3700 series Blue
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -689,7 +541,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother MFC-J995DW Printer
+TargetPrinter=HP DeskJet 3700 series Blue
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -723,7 +575,7 @@ OutputDefault5=0
 Configuration5_Name1=ForceUpdateSettings
 Configuration5_Item1=False
 Configuration5_Name2=OutputConfigurationParameter1
-Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Imperial|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16973831~1,16973849~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16973834~1,16973848~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False
+Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Imperial|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16973831~1,16973849~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16973834~1,16973848~1,16973837~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=

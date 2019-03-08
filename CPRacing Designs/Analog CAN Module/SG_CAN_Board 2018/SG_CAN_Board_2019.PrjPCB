@@ -242,119 +242,31 @@ GenerateClassCluster=0
 DocumentUniqueId=FDGIFKGX
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\Design Rule Check - SG_CAN_Board.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=SG_CAN_Board 12-20-2018 9-19-48 PM.WAS
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=SG_CAN_Board 12-22-2018 8-11-36 PM.WAS
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=SG_CAN_Board 12-22-2018 8-22-59 PM.WAS
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=SG_CAN_Board 12-22-2018 10-50-39 PM.WAS
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=SG_CAN_Board 12-23-2018 11-32-39 AM.WAS
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=SG_CAN_Board 12-23-2018 11-38-21 AM.WAS
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=SG_CAN_Board 12-26-2018 1-08-04 AM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board.REP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Copper_Signal_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Copper_Signal_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Drawing_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Drillmap_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Keep-out.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Pads_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Pads_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for SG_CAN_Board_2019\SG_CAN_Board_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [Configuration1]

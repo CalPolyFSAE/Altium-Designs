@@ -240,46 +240,50 @@ DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Drillmap
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Legend_Bot.gbr
+DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Legend_Top.gbr
+DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_NPTH_Drill.gbr
+DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Pads_Bot.gbr
+DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_NPTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Pads_Top.gbr
+DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Pads_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Paste_Bot.gbr
+DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Pads_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Paste_Top.gbr
+DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Profile.gbr
+DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_PTH_Drill.gbr
+DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Profile.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_PTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
+DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument20]
 DocumentPath=Project Outputs for AeroPressureSensors\Pressure_Tap_Board_Soldermask_Top.gbr
 DItemRevisionGUID=
 
@@ -402,7 +406,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP DeskJet 1110 series
+TargetPrinter=HP DeskJet 3700 series Blue
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -496,7 +500,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP DeskJet 3700 series Blue
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -556,7 +560,7 @@ OutputDefault10=0
 Configuration10_Name1=ForceUpdateSettings
 Configuration10_Item1=False
 Configuration10_Name2=OutputConfigurationParameter1
-Configuration10_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Imperial|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_HighLayer=Top Layer|PlotDrillDrawingPair0_LowLayer=Bottom Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_HighLayer=Top Layer|PlotDrillGuidePair0_LowLayer=Bottom Layer|PlotDrillGuidePairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16973831~1,16973849~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16973834~1,16973848~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False
+Configuration10_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Imperial|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Top Layer|PlotDrillDrawingPair0_LowLayer=Bottom Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Top Layer|PlotDrillGuidePair0_LowLayer=Bottom Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=True|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16777217~1,16973831~1,16973849~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16973834~1,16973848~1,16973837~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False
 OutputType11=Final
 OutputName11=Final Artwork Prints
 OutputDocumentPath11=
@@ -824,6 +828,11 @@ OutputName6=Footprint Comparison Report
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
@@ -1004,6 +1013,7 @@ Type113=1
 Type114=1
 Type115=1
 Type116=1
+Type117=1
 
 [Difference Levels]
 Type1=1
@@ -1071,6 +1081,7 @@ Type62=1
 Type63=1
 Type64=1
 Type65=1
+Type66=1
 
 [Electrical Rules Check]
 Type1=1
