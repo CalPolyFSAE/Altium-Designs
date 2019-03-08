@@ -554,6 +554,10 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for ControlBoard\Design Rule Check - ControlBoard_v3.html
 DItemRevisionGUID=
 
+[GeneratedDocument24]
+DocumentPath=Project Outputs for ControlBoard\Design Rule Check - ControlBoard_v4.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
