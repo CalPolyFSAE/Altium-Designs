@@ -140,98 +140,102 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for HVPCB\HVPCB.1
+DocumentPath=Project Outputs for HVPCB\Design Rule Check - HVPCB_Rev2.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for HVPCB\HVPCB.DRL
+DocumentPath=Project Outputs for HVPCB\HVPCB.1
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for HVPCB\HVPCB.DRR
+DocumentPath=Project Outputs for HVPCB\HVPCB.DRL
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for HVPCB\HVPCB.EXTREP
+DocumentPath=Project Outputs for HVPCB\HVPCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GBL
+DocumentPath=Project Outputs for HVPCB\HVPCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GBO
+DocumentPath=Project Outputs for HVPCB\HVPCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GBP
+DocumentPath=Project Outputs for HVPCB\HVPCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GBS
+DocumentPath=Project Outputs for HVPCB\HVPCB.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GKO
+DocumentPath=Project Outputs for HVPCB\HVPCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GM1
+DocumentPath=Project Outputs for HVPCB\HVPCB.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GM13
+DocumentPath=Project Outputs for HVPCB\HVPCB.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GM15
+DocumentPath=Project Outputs for HVPCB\HVPCB.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GM32767
+DocumentPath=Project Outputs for HVPCB\HVPCB.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GML
+DocumentPath=Project Outputs for HVPCB\HVPCB.GM32767
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GPB
+DocumentPath=Project Outputs for HVPCB\HVPCB.GML
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GPT
+DocumentPath=Project Outputs for HVPCB\HVPCB.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GTL
+DocumentPath=Project Outputs for HVPCB\HVPCB.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GTO
+DocumentPath=Project Outputs for HVPCB\HVPCB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GTP
+DocumentPath=Project Outputs for HVPCB\HVPCB.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for HVPCB\HVPCB.GTS
+DocumentPath=Project Outputs for HVPCB\HVPCB.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for HVPCB\HVPCB.LDP
+DocumentPath=Project Outputs for HVPCB\HVPCB.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for HVPCB\HVPCB.REP
+DocumentPath=Project Outputs for HVPCB\HVPCB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for HVPCB\HVPCB.RUL
+DocumentPath=Project Outputs for HVPCB\HVPCB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
+DocumentPath=Project Outputs for HVPCB\HVPCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument25]
 DocumentPath=Project Outputs for HVPCB\HVPCB.TXT
 DItemRevisionGUID=
 
@@ -354,7 +358,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HPE6AD5E (HP Officejet 5740 series)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
