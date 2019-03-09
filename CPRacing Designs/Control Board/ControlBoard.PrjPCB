@@ -551,82 +551,6 @@ DocumentPath=Project Outputs for ControlBoard\ControlBoard_v3_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4.REP
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Drawing_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Drillmap_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Keep-out.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Pads_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Pads_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for ControlBoard\ControlBoard_v4_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument42]
 DocumentPath=Project Outputs for ControlBoard\Design Rule Check - ControlBoard_v3.html
 DItemRevisionGUID=
 
@@ -749,7 +673,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Hewlett-Packard HP LaserJet 600 M601
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
