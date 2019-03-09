@@ -1,0 +1,28 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [FSAE_IMU_TESTBOARD.PrjPcb]
+   Generated File[IMU_Copper_Signal_Top.gbr]
+   Generated File[IMU_Copper_Signal_Bot.gbr]
+   Generated File[IMU_Pads_Bot.gbr]
+   Generated File[IMU_Pads_Top.gbr]
+   Generated File[IMU_Legend_Bot.gbr]
+   Generated File[IMU_Soldermask_Bot.gbr]
+   Generated File[IMU_Paste_Bot.gbr]
+   Generated File[IMU_Legend_Top.gbr]
+   Generated File[IMU_Paste_Top.gbr]
+   Generated File[IMU_Soldermask_Top.gbr]
+   Generated File[IMU_Keep-out.gbr]
+   Generated File[IMU_Profile.gbr]
+   Generated File[IMU_NPTH_Drill.gbr]
+   Generated File[IMU_PTH_Drill.gbr]
+   Generated File[IMU_Drawing_1.gbr]
+   Generated File[IMU_Drillmap_1.gbr]
+   Generated File[IMU.RUL]
+   Generated File[IMU.EXTREP]
+   Generated File[IMU.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 10:33:43 AM On 3/8/2019

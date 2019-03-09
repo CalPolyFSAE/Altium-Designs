@@ -1,0 +1,28 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [BMS Master.PrjPcb]
+   Generated File[BMS Master 3_Copper_Signal_Top.gbr]
+   Generated File[BMS Master 3_Copper_Signal_Bot.gbr]
+   Generated File[BMS Master 3_Pads_Bot.gbr]
+   Generated File[BMS Master 3_Pads_Top.gbr]
+   Generated File[BMS Master 3_Legend_Bot.gbr]
+   Generated File[BMS Master 3_Soldermask_Bot.gbr]
+   Generated File[BMS Master 3_Paste_Bot.gbr]
+   Generated File[BMS Master 3_Legend_Top.gbr]
+   Generated File[BMS Master 3_Paste_Top.gbr]
+   Generated File[BMS Master 3_Soldermask_Top.gbr]
+   Generated File[BMS Master 3_Keep-out.gbr]
+   Generated File[BMS Master 3_Profile.gbr]
+   Generated File[BMS Master 3_NPTH_Drill.gbr]
+   Generated File[BMS Master 3_PTH_Drill.gbr]
+   Generated File[BMS Master 3_Drawing_1.gbr]
+   Generated File[BMS Master 3_Drillmap_1.gbr]
+   Generated File[BMS Master 3.RUL]
+   Generated File[BMS Master 3.EXTREP]
+   Generated File[BMS Master 3.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 5:17:02 AM On 3/8/2019
