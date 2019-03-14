@@ -308,6 +308,27 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Top Assembly
+      File : IMU_Mechanical_2.gbr
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : IMU_Mechanical_3.gbr
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D52
+*************************************************************
+
+*************************************************************
 Generating : Profile
       File : IMU_Profile.gbr
 
