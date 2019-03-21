@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Documents\Github\Altium-Designs\CPRacing Designs\Control Board\ControlBoard_v4.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=controlboard_v4-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=controlboard_v4-slotholes.txt|DrillLayers=gtl,gbl

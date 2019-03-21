@@ -1,9 +1,13 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [ControlBoard.PrjPCB]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ControlBoard.PrjPCB]
+   Generated File[ControlBoard_v4-RoundHoles.TXT]
+   Generated File[ControlBoard_v4-SlotHoles.TXT]
+   Generated File[ControlBoard_v4.LDP]
+   Generated File[ControlBoard_v4.DRR]
 
 
-Files Generated   : 0
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 11:31:13 PM On 12/1/2018
+Finished Output Generation At 6:18:54 PM On 3/20/2019
