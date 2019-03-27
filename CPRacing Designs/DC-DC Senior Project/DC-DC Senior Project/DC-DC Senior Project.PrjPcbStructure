@@ -1,1 +1,3 @@
 Record=TopLevelDocument|FileName=DC-DC Converter.SchDoc
+Record=SheetSymbol|SourceDocument=DC-DC Converter.SchDoc|Designator=U_OptoIsolator|SchDesignator=U_OptoIsolator|FileName=OptoIsolator.SchDoc|SymbolType=Normal|RawFileName=OptoIsolator.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=DC-DC Converter.SchDoc|Designator=U_Sync Transformer|SchDesignator=U_Sync Transformer|FileName=Sync Transformer.SchDoc|SymbolType=Normal|RawFileName=Sync Transformer.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
