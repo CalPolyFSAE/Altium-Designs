@@ -1,3 +1,13 @@
 3-pin jumper conn	x14	https://www.digikey.com/products/en?keywords=XG8V-0331
 5V-1A LDO	x2	https://www.digikey.com/product-detail/en/on-semiconductor/NCP1117ST50T3G/NCP1117ST50T3GOSCT-ND/1967217
 10uF caps	x16
+
+--------------------------------------------------------------------------------------
+
+FORGOTTEN PARTS
+
+jumper shorting tin	x10	https://www.digikey.com/product-detail/en/sullins-connector-solutions/STC02SYAN/S9000-ND/76372
+51 kohms 0805	x4
+9.1 kohms 0805	x2
+11 kohms 0805	x2
+inverters	x2	https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC3G14DCUR/296-13006-1-ND/475831
