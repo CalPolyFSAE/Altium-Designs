@@ -225,6 +225,23 @@ GenerateClassCluster=0
 DocumentUniqueId=PBGQLBTJ
 
 [Document12]
+DocumentPath=Enable SSR.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JOJDWVBS
+
+[Document13]
 DocumentPath=Flyback Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HMLWWJEY
 
-[Document13]
+[Document14]
 DocumentPath=..\..\..\..\Altium-Library\Footprints\SOD323F.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KBJCOJSA
 
-[Document14]
+[Document15]
 DocumentPath=Forward Active Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SJBNYUXR
 
-[Document15]
+[Document16]
 DocumentPath=..\..\..\..\Altium-Library\Symbols\ACPL-W346.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MUXBWEKN
 
-[Document16]
+[Document17]
 DocumentPath=..\..\..\..\Altium-Library\Footprints\SOIC-6 (8-mm Clearance).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HIGGPBMR
 
-[Document17]
+[Document18]
 DocumentPath=..\..\..\..\Altium-Library\Footprints\SMA.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MNPMRTSV
 
-[Document18]
+[Document19]
 DocumentPath=Gate Driver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
