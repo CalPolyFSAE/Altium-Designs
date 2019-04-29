@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DC-DC Converter.PcbDoc   4/28/2019  4:37:20 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : DC-DC Converter.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.254mm)                                           Round             28        PTH        0.00inch (0.00mm)
+T2      15mil (0.381mm)                                           Round             806       PTH        0.00inch (0.00mm)
+T3      32mil (0.8mm)                                             Round             6         PTH        0.00inch (0.00mm)
+T4      35mil (0.9mm)                                             Round             3         PTH        0.00inch (0.00mm)
+T5      39mil (1mm)             +/-4mil (0.1mm)                   Round             9         PTH        0.00inch (0.00mm)
+T6      40mil (1.02mm)                                            Round             4         PTH        0.00inch (0.00mm)
+T7      47mil (1.19mm)                                            Round             8         PTH        0.00inch (0.00mm)
+T8      47mil (1.2mm)                                             Round             2         PTH        0.00inch (0.00mm)
+T9      63mil (1.6mm)                                             Round             13        PTH        0.00inch (0.00mm)
+T10     75mil (1.905mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T11     197mil (5mm)                                              Round             4         PTH        0.00inch (0.00mm)
+T12     98mil (2.5mm)                                             Round             1         NPTH       0.00inch (0.00mm)
+T13     118mil (3mm)                                              Round             1         NPTH       0.00inch (0.00mm)
+T14     122mil (3.1mm)                                            Round             1         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              888
+
+Total Processing Time (hh:mm:ss) : 00:00:01
