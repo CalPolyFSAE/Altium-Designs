@@ -1,23 +1,12 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [DC-DC Senior Project.PrjPcb]
-   Generated File[DC-DC Converter.GTO]
-   Generated File[DC-DC Converter.GTS]
-   Generated File[DC-DC Converter.GTL]
-   Generated File[DC-DC Converter.G1]
-   Generated File[DC-DC Converter.G2]
-   Generated File[DC-DC Converter.GBL]
-   Generated File[DC-DC Converter.GBS]
-   Generated File[DC-DC Converter.GBO]
-   Generated File[DC-DC Converter.GM1]
-   Generated File[DC-DC Converter.GM4]
-   Generated File[DC-DC Converter.GKO]
-   Generated File[DC-DC Converter.RUL]
-   Generated File[DC-DC Converter.EXTREP]
-   Generated File[DC-DC Converter.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [DC-DC Senior Project.PrjPcb]
+   Generated File[DC-DC Converter.TXT]
+   Generated File[DC-DC Converter.LDP]
+   Generated File[DC-DC Converter.DRR]
 
 
-Files Generated   : 14
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 3:02:44 PM On 4/30/2019
+Finished Output Generation At 7:21:29 PM On 4/30/2019
