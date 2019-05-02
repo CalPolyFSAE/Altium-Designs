@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\nickj\Documents\GitHub\Altium-Designs\CPRacing Designs\DC-DC Senior Project\DC-DC Senior Project\DC-DC Converter.PcbDoc
+DRC Rules Export File for PCB: D:\Documents\Github\Repositories\Altium-Designs\CPRacing Designs\DC-DC Senior Project\DC-DC Senior Project\DC-DC Converter.PcbDoc
 RuleKind=Clearance|RuleName=Stitching Pri_Drain_SWP|Scope=Board|Minimum=5.00
 RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=157.48
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
