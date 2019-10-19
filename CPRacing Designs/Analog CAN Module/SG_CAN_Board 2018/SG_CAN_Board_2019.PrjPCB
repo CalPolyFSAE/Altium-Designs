@@ -56,7 +56,7 @@ DocumentUniqueId=TMTBTKIT
 
 [Document2]
 DocumentPath=..\..\Universal_Designs\RVP_OVP_LC.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -175,7 +175,7 @@ DocumentUniqueId=OFPBCLDY
 
 [Document9]
 DocumentPath=..\..\Universal_Designs\USB.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -192,7 +192,7 @@ DocumentUniqueId=SCWFXFKM
 
 [Document10]
 DocumentPath=..\..\Universal_Designs\MCU_MKE185F512VLH16.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -209,7 +209,7 @@ DocumentUniqueId=METTPYBJ
 
 [Document11]
 DocumentPath=..\..\Universal_Designs\CAN_Tranceiver.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -388,7 +388,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=Hewlett-Packard HP LaserJet 600 M601
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -484,7 +484,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=Hewlett-Packard HP LaserJet 600 M601
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
