@@ -1,0 +1,12 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [SG_CAN_Board_2019.PrjPCB]
+   Generated File[SG_CAN_Board.RUL]
+   Generated File[SG_CAN_Board.EXTREP]
+   Generated File[SG_CAN_Board.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:11:25 PM On 11/2/2019
