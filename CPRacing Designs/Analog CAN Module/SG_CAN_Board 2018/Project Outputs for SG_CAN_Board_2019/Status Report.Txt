@@ -1,0 +1,26 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [SG_CAN_Board_2019.PrjPCB]
+   Generated File[SG_CAN_Board.GTO]
+   Generated File[SG_CAN_Board.GTP]
+   Generated File[SG_CAN_Board.GTS]
+   Generated File[SG_CAN_Board.GTL]
+   Generated File[SG_CAN_Board.GBL]
+   Generated File[SG_CAN_Board.GBS]
+   Generated File[SG_CAN_Board.GBP]
+   Generated File[SG_CAN_Board.GBO]
+   Generated File[SG_CAN_Board.GM1]
+   Generated File[SG_CAN_Board.GM13]
+   Generated File[SG_CAN_Board.GM15]
+   Generated File[SG_CAN_Board.GKO]
+   Generated File[SG_CAN_Board.GPT]
+   Generated File[SG_CAN_Board.GPB]
+   Generated File[SG_CAN_Board.RUL]
+   Generated File[SG_CAN_Board.EXTREP]
+   Generated File[SG_CAN_Board.REP]
+
+
+Files Generated   : 17
+Documents Printed : 0
+
+Finished Output Generation At 0:37:29 On 11/15/2019

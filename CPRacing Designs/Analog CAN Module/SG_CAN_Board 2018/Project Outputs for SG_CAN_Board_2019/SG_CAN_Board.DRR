@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SG_CAN_Board.PcbDoc   11/14/2019  22:56:00
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SG_CAN_Board.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      15mil (0.381mm)                                           Round             88        PTH        0.00inch (0.00mm)
+T2      20mil (0.508mm)                                           Round             10        PTH        0.00inch (0.00mm)
+T3      51mil (1.3mm)           +/-8mil (0.2mm)                   Round             34        PTH        0.00inch (0.00mm)
+T4      138mil (3.5mm)                                            Round             4         PTH        0.00inch (0.00mm)
+T5      39mil (1mm)                                               Round             2         NPTH       0.00inch (0.00mm)
+T6      130mil (3.3mm)          +/-4mil (0.1mm)                   Round             2         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              140
+
+Total Processing Time (hh:mm:ss) : 00:00:00
