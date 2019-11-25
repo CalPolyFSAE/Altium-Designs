@@ -38,40 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=PDC_Final.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JEOUVVRB
-
-[Document2]
-DocumentPath=..\Universal_Designs\USB.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=29
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SCWFXFKM
-
-[Document3]
 DocumentPath=Superseal.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -87,6 +53,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UKFWRVQK
+
+[Document2]
+DocumentPath=PDC_Rev2.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JEOUVVRB
+
+[Document3]
+DocumentPath=..\Universal_Designs\USB.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=29
+DoLibraryUpdate=0
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SCWFXFKM
 
 [Document4]
 DocumentPath=..\Universal_Designs\RVP_OVP_HC.SchDoc
@@ -484,114 +484,118 @@ DocumentPath=Project Outputs for PDC\Design Rule Check - Final_PDC.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for PDC\Design Rule Check - PDC_Rev_2.html
+DocumentPath=Project Outputs for PDC\Design Rule Check - PDC_Rev2.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for PDC\Design Rule Check - PDC_Rev_2_Final.html
+DocumentPath=Project Outputs for PDC\Design Rule Check - PDC_Rev_2.html
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for PDC\Design Rule Check - PDC_Rev_3.html
+DocumentPath=Project Outputs for PDC\Design Rule Check - PDC_Rev_2_Final.html
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=MessageListReport.html
+DocumentPath=Project Outputs for PDC\Design Rule Check - PDC_Rev_3.html
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for PDC\PDC_Final.EXTREP
+DocumentPath=MessageListReport.html
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for PDC\PDC_Final.REP
+DocumentPath=Project Outputs for PDC\PDC_Final.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for PDC\PDC_Final.RUL
+DocumentPath=Project Outputs for PDC\PDC_Final.REP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for PDC\PDC_Final_Copper_Signal_1.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for PDC\PDC_Final_Copper_Signal_2.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Copper_Signal_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for PDC\PDC_Final_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Copper_Signal_2.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for PDC\PDC_Final_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Copper_Signal_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for PDC\PDC_Final_Drawing_1.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Copper_Signal_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for PDC\PDC_Final_Drillmap_1.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Drawing_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for PDC\PDC_Final_Keep-out.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Drillmap_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for PDC\PDC_Final_Legend_Bot.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Keep-out.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for PDC\PDC_Final_Legend_Top.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Legend_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for PDC\PDC_Final_Mechanical_1.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Legend_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for PDC\PDC_Final_Mechanical_13.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Mechanical_1.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for PDC\PDC_Final_Mechanical_15.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Mechanical_13.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for PDC\PDC_Final_NPTH_Drill.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Mechanical_15.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for PDC\PDC_Final_Pads_Bot.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_NPTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for PDC\PDC_Final_Pads_Top.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Pads_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for PDC\PDC_Final_Paste_Bot.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Pads_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for PDC\PDC_Final_Paste_Top.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Paste_Bot.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for PDC\PDC_Final_Profile.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Paste_Top.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for PDC\PDC_Final_PTH_Drill.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_Profile.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for PDC\PDC_Final_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for PDC\PDC_Final_PTH_Drill.gbr
 DItemRevisionGUID=
 
 [GeneratedDocument29]
+DocumentPath=Project Outputs for PDC\PDC_Final_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument30]
 DocumentPath=Project Outputs for PDC\PDC_Final_Soldermask_Top.gbr
 DItemRevisionGUID=
 
@@ -608,7 +612,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=BAT LAB
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -714,7 +718,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=BAT LAB
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -808,7 +812,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=BAT LAB
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -830,7 +834,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=BAT LAB
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -906,7 +910,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=BAT LAB
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -955,7 +959,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=BAT LAB
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1135,7 +1139,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=BAT LAB
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Server's components states check
@@ -1179,7 +1183,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=BAT LAB
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1230,7 +1234,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP DeskJet 3700 series Blue
+TargetPrinter=BAT LAB
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
