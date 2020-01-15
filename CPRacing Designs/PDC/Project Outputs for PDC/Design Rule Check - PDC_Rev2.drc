@@ -1,121 +1,63 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\KevinMBP\Documents\GitHub\Altium-Designs\CPRacing Designs\PDC\PDC_Rev2.PcbDoc
-Date     : 1/12/2020
-Time     : 2:08:56 AM
-
-WARNING: Zero hole size multi-layer pad(s) detected
-   Pad OVP_G1-1(4153.619mil,1860.73mil) on Multi-Layer on Net NetD7_1
-   Pad TEST_CANP1-1(592mil,3973.5mil) on Multi-Layer on Net CAN_P
-   Pad TEST_CANN1-1(592mil,3868.5mil) on Multi-Layer on Net CAN_N
-   Pad PWR_IN1-1(953.102mil,1557mil) on Multi-Layer on Net 12V_IN
-   Pad TEST_USBD_N1-1(4034.425mil,3826mil) on Multi-Layer on Net D_N
-   Pad TEST_USBD_P1-1(3965.425mil,3826mil) on Multi-Layer on Net D_P
-   Pad TEST_CANTX1-1(2376mil,3913mil) on Multi-Layer on Net NetTEST_CANTX1_1
-   Pad UART_TX1-1(4578mil,3416mil) on Multi-Layer on Net NetR77_1
-   Pad PWR_OUT1-1(3922mil,2396mil) on Multi-Layer on Net +12
-   Pad UART_RX1-1(4610mil,3653mil) on Multi-Layer on Net NetR78_1
-   Pad TEST_CANRX1-1(2371mil,3726mil) on Multi-Layer on Net NetTEST_CANRX1_1
-
-WARNING: Unplated multi-layer pad(s) detected
-   Pad F2-2(964.724mil,1933.022mil) on Multi-Layer on Net 12V_IN
-   Pad F2-1(1355.276mil,1933.022mil) on Multi-Layer on Net +12
-   Pad F2-2(964.724mil,1799.163mil) on Multi-Layer on Net 12V_IN
-   Pad F2-1(1355.276mil,1799.163mil) on Multi-Layer on Net +12
-   Pad F1-2(964.449mil,2250mil) on Multi-Layer on Net 12V_IN
-   Pad F1-1(1355mil,2250mil) on Multi-Layer on Net +12
-   Pad F1-2(964.449mil,2116.142mil) on Multi-Layer on Net 12V_IN
-   Pad F1-1(1355mil,2116.142mil) on Multi-Layer on Net +12
+PCB File : C:\Users\grayd\home\git\Altium-Designs\CPRacing Designs\PDC\PDC_Rev2.PcbDoc
+Date     : 1/15/2020
+Time     : 1:58:36
 
 WARNING: Multilayer Pads with 0 size Hole found
-   Pad OVP_G1-1(4153.619mil,1860.73mil) on Multi-Layer
-   Pad TEST_CANP1-1(592mil,3973.5mil) on Multi-Layer
-   Pad TEST_CANN1-1(592mil,3868.5mil) on Multi-Layer
-   Pad PWR_IN1-1(953.102mil,1557mil) on Multi-Layer
-   Pad TEST_USBD_N1-1(4034.425mil,3826mil) on Multi-Layer
-   Pad TEST_USBD_P1-1(3965.425mil,3826mil) on Multi-Layer
-   Pad TEST_CANTX1-1(2376mil,3913mil) on Multi-Layer
-   Pad UART_TX1-1(4578mil,3416mil) on Multi-Layer
-   Pad PWR_OUT1-1(3922mil,2396mil) on Multi-Layer
-   Pad UART_RX1-1(4610mil,3653mil) on Multi-Layer
-   Pad U7-6(4718.69mil,1761.9mil) on Multi-Layer
-   Pad TEST_CANRX1-1(2371mil,3726mil) on Multi-Layer
+   Pad U7-6(119.855mm,44.752mm) on Multi-Layer
 
-Processing Rule : Clearance Constraint (Gap=8mil) (All),(All)
+Processing Rule : Clearance Constraint (Gap=0.203mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint:  
-   Violation between Un-Routed Net Constraint: Track (1355.276mil,1638.276mil)(1355.276mil,1799.163mil) on Bottom Layer 
-Rule Violations :24
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=8mil) (Max=100mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=0.203mm) (Max=2.54mm) (Preferred=0.254mm) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=1mil) (Max=1000mil) (All)
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=25.4mm) (All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (Disabled)(All),(All)
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (Disabled)(All),(All)
 Rule Violations :0
 
-Processing Rule : Silk To Solder Mask (Clearance=10mil) (Disabled)(IsPad),(All)
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (Disabled)(IsPad),(All)
 Rule Violations :0
 
-Processing Rule : Silk to Silk (Clearance=10mil) (Disabled)(All),(All)
+Processing Rule : Silk to Silk (Clearance=0.254mm) (Disabled)(All),(All)
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (7.205mil < 11mil) Between Board Edge And Track (12.205mil,3637.795mil)(287.795mil,3637.795mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (7.205mil < 11mil) Between Board Edge And Track (12.205mil,566.929mil)(12.205mil,3637.795mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (7.205mil < 11mil) Between Board Edge And Track (12.205mil,566.929mil)(287.795mil,566.929mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (4.922mil < 11mil) Between Board Edge And Track (3863.189mil,4116.338mil)(3863.189mil,4191.142mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (4.922mil < 11mil) Between Board Edge And Track (3863.189mil,4191.142mil)(4178.15mil,4191.142mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (4.922mil < 11mil) Between Board Edge And Track (4178.15mil,4116.338mil)(4178.15mil,4191.142mil) on Top Overlay 
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (0.183mm < 0.279mm) Between Board Edge And Track (0.31mm,14.4mm)(0.31mm,92.4mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.183mm < 0.279mm) Between Board Edge And Track (0.31mm,14.4mm)(7.31mm,14.4mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.183mm < 0.279mm) Between Board Edge And Track (0.31mm,92.4mm)(7.31mm,92.4mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.125mm < 0.279mm) Between Board Edge And Track (106.125mm,104.555mm)(106.125mm,106.455mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.125mm < 0.279mm) Between Board Edge And Track (98.125mm,104.555mm)(98.125mm,106.455mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0.125mm < 0.279mm) Between Board Edge And Track (98.125mm,106.455mm)(106.125mm,106.455mm) on Top Overlay 
 Rule Violations :6
 
-Processing Rule : Matched Lengths(Tolerance=10mil) (InNet('D_N'))
+Processing Rule : Matched Lengths(Tolerance=0.254mm) (InNet('D_N'))
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mil) (Max=12000mil) (Prefered=12mil) (All)
+Processing Rule : Height Constraint (Min=0mm) (Max=304.8mm) (Prefered=0.305mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 30
+Violations Detected : 6
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:02

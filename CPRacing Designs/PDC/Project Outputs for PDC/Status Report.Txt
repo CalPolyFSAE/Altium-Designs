@@ -1,0 +1,33 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [PDC.PrjPCB]
+   Generated File[PDC_Rev2_Copper_Signal_Top.gbr]
+   Generated File[PDC_Rev2_Copper_Signal_1.gbr]
+   Generated File[PDC_Rev2_Copper_Signal_2.gbr]
+   Generated File[PDC_Rev2_Copper_Signal_Bot.gbr]
+   Generated File[PDC_Rev2_Pads_Bot.gbr]
+   Generated File[PDC_Rev2_Pads_Top.gbr]
+   Generated File[PDC_Rev2_Legend_Bot.gbr]
+   Generated File[PDC_Rev2_Soldermask_Bot.gbr]
+   Generated File[PDC_Rev2_Paste_Bot.gbr]
+   Generated File[PDC_Rev2_Legend_Top.gbr]
+   Generated File[PDC_Rev2_Paste_Top.gbr]
+   Generated File[PDC_Rev2_Soldermask_Top.gbr]
+   Generated File[PDC_Rev2_Keep-out.gbr]
+   Generated File[PDC_Rev2_Mechanical_13.gbr]
+   Generated File[PDC_Rev2_Mechanical_1.gbr]
+   Generated File[PDC_Rev2_Mechanical_15.gbr]
+   Generated File[PDC_Rev2_Profile.gbr]
+   Generated File[PDC_Rev2_NPTH_Drill.gbr]
+   Generated File[PDC_Rev2_PTH_Drill.gbr]
+   Generated File[PDC_Rev2_Drawing_1.gbr]
+   Generated File[PDC_Rev2_Drillmap_1.gbr]
+   Generated File[PDC_Rev2.RUL]
+   Generated File[PDC_Rev2.EXTREP]
+   Generated File[PDC_Rev2.REP]
+
+
+Files Generated   : 24
+Documents Printed : 0
+
+Finished Output Generation At 1:59:22 On 1/15/2020
